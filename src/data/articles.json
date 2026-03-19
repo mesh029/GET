@@ -1,0 +1,1416 @@
+{
+  "m1": {
+    "heroImage": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=1200&q=80",
+    "heroAlt": "Person typing on laptop with digital security overlay",
+    "readTime": "7 min read",
+    "forSchools": false,
+    "intro": "Every year, phishing attacks cost individuals and organisations billions of dollars — not because security systems fail, but because people do. Understanding how these attacks work, and why our brains are vulnerable to them, is the single most effective cybersecurity skill you can develop.",
+    "sections": [
+      {
+        "type": "h2",
+        "text": "What Phishing Actually Is"
+      },
+      {
+        "type": "p",
+        "content": "Phishing is a type of social engineering attack where a malicious actor impersonates a trusted entity — a bank, a tech company, a government agency, even a colleague — to trick you into revealing credentials, clicking a malicious link, or transferring money. The word comes from 'fishing': attackers cast a wide net and wait for someone to take the bait."
+      },
+      {
+        "type": "p",
+        "content": "Modern phishing is sophisticated. AI-generated emails now perfectly replicate the tone, formatting, and visual identity of legitimate brands. In 2023, the Anti-Phishing Working Group reported over 4.9 million phishing attacks — the highest annual total ever recorded."
+      },
+      {
+        "type": "stat",
+        "value": "91%",
+        "label": "of all cyberattacks begin with a phishing email",
+        "context": "Source: Deloitte Cyber Intelligence Report"
+      },
+      {
+        "type": "h2",
+        "text": "Why Our Brains Are Vulnerable"
+      },
+      {
+        "type": "p",
+        "content": "Phishing works because it exploits cognitive shortcuts that evolved to help us function efficiently. Attackers use urgency ('Your account will be closed in 24 hours'), authority ('Message from your IT department'), and familiarity ('You received a payment from a friend') to bypass our critical thinking."
+      },
+      {
+        "type": "callout",
+        "variant": "warning",
+        "title": "The Urgency Trap",
+        "content": "Any message that creates a sense of panic — 'Act now', 'Immediate action required', 'Your account is at risk' — is almost certainly designed to rush you past rational evaluation. Pause. Breathe. Verify through official channels before doing anything."
+      },
+      {
+        "type": "p",
+        "content": "A landmark study by Google found that even security professionals failed to detect sophisticated phishing emails 45% of the time. This isn't a knowledge problem — it's a design problem. Attackers specifically engineer their messages to look indistinguishable from legitimate communications."
+      },
+      {
+        "type": "h2",
+        "text": "The Anatomy of a Phishing Email"
+      },
+      {
+        "type": "list",
+        "title": "Red flags to look for in every suspicious message:",
+        "items": [
+          "Sender domain doesn't match the company (e.g. support@paypa1.com instead of @paypal.com)",
+          "Generic greeting ('Dear Customer') instead of your name",
+          "Requests for credentials, OTP codes, or payment via unusual methods",
+          "Links that display one URL but point to another (hover to check)",
+          "Attachments you weren't expecting, especially .exe, .zip, or .docx files",
+          "Subtle urgency — language designed to bypass your critical thinking"
+        ]
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=900&q=80",
+        "alt": "Person examining email on laptop screen with caution",
+        "caption": "Always hover over links before clicking — the destination URL often reveals a mismatch."
+      },
+      {
+        "type": "h2",
+        "text": "Spear Phishing: The Targeted Version"
+      },
+      {
+        "type": "p",
+        "content": "Standard phishing casts a wide net. Spear phishing is a precision attack — targeting a specific individual using personalised information gathered from LinkedIn, social media, or previous data breaches. An attacker might know your name, your job title, your manager's name, and a recent project you worked on."
+      },
+      {
+        "type": "quote",
+        "text": "We can build the most sophisticated firewalls in the world, but if someone clicks a link, it's all for nothing. Human awareness is the last line of defence.",
+        "source": "Former CISA Director, Christopher Krebs"
+      },
+      {
+        "type": "p",
+        "content": "C-suite executives and finance teams are the most targeted. 'Business Email Compromise' (BEC) attacks — where attackers impersonate a CEO instructing finance to wire funds — caused over $2.9 billion in losses in 2023 alone."
+      },
+      {
+        "type": "h2",
+        "text": "The Password Problem"
+      },
+      {
+        "type": "p",
+        "content": "Once a phishing attack harvests your credentials for one account, attackers test those same username/password combinations across hundreds of other sites. This is called 'credential stuffing'. If you reuse passwords — which 65% of people do — a single breach cascades into many."
+      },
+      {
+        "type": "callout",
+        "variant": "tip",
+        "title": "The Single Highest-ROI Habit",
+        "content": "Use a password manager (Bitwarden is free and open-source). It generates and stores a unique, random password for every site. You only remember one master password. Credential stuffing attacks become completely ineffective when every password is unique."
+      },
+      {
+        "type": "h2",
+        "text": "What To Do If You've Been Phished"
+      },
+      {
+        "type": "list",
+        "title": "Immediate response steps:",
+        "items": [
+          "Change the compromised password immediately, and every account that used the same password",
+          "Enable Multi-Factor Authentication (MFA) on all critical accounts — email, banking, social",
+          "Notify your IT department if it happened on a work device or account",
+          "Check your email inbox for forwarding rules — phishers often add auto-forward rules silently",
+          "Monitor bank and credit accounts for the next 30 days",
+          "Report to your national cyber crime unit (e.g. Action Fraud in UK, IC3 in US)"
+        ]
+      },
+      {
+        "type": "callout",
+        "variant": "info",
+        "title": "MFA is Not Optional",
+        "content": "Microsoft research found that MFA blocks 99.9% of automated account compromise attacks. Even if a phisher steals your password, they cannot access your account without the second factor. Enable it everywhere, prioritising email — because email access unlocks password resets on everything else."
+      }
+    ],
+    "keyTakeaways": [
+      "91% of all cyberattacks start with a phishing email — awareness is your primary defence",
+      "Urgency and authority are the two main psychological levers attackers pull — recognise them",
+      "Hovering over links before clicking reveals mismatched URLs — do it every time",
+      "Password managers + MFA make credential theft effectively useless against you",
+      "Spear phishing uses your personal information — be careful what you post publicly"
+    ],
+    "challengeQuestionIds": ["q1", "q4", "q36"]
+  },
+
+  "m2": {
+    "heroImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80",
+    "heroAlt": "Credit cards and mobile banking app on desk",
+    "readTime": "6 min read",
+    "forSchools": false,
+    "intro": "Financial fraud is no longer the domain of shadowy hackers in distant data centres. Today's attacks are social, targeted, and devastatingly effective — happening over SMS, phone calls, and public Wi-Fi. Knowing the tactics is the difference between catching fraud in real time and discovering it too late.",
+    "sections": [
+      {
+        "type": "h2",
+        "text": "The Modern Financial Attack Surface"
+      },
+      {
+        "type": "p",
+        "content": "Digital banking has created extraordinary convenience — and an equally extraordinary attack surface. Every online transaction, every app login, every public Wi-Fi session is a potential entry point. Financial fraud losses exceeded $485 billion globally in 2023, with individuals accounting for a significant and growing share."
+      },
+      {
+        "type": "stat",
+        "value": "$485B",
+        "label": "lost to financial fraud globally in 2023",
+        "context": "Source: Nasdaq Global Financial Crime Report 2024"
+      },
+      {
+        "type": "h2",
+        "text": "Smishing: The SMS Phishing Epidemic"
+      },
+      {
+        "type": "p",
+        "content": "Smishing (SMS phishing) has surged because text messages feel personal and trusted. A message claiming 'Your Barclays account has been suspended — verify now at barclays-secure.uk' looks different from an email, but follows identical attack mechanics. SMS open rates are over 90%, compared to 20% for email — making it a highly effective attack vector."
+      },
+      {
+        "type": "callout",
+        "variant": "danger",
+        "title": "Banks Will Never Ask For This",
+        "content": "No legitimate bank will ever ask for your full PIN, password, or one-time code via text, phone, or email. If someone claiming to be your bank requests these, hang up immediately and call the number on the back of your card."
+      },
+      {
+        "type": "h2",
+        "text": "Public Wi-Fi: The Invisible Risk"
+      },
+      {
+        "type": "p",
+        "content": "Coffee shops, airports, and hotels offer free Wi-Fi for convenience. For attackers, they offer an opportunity. Unencrypted public networks allow a technique called 'man-in-the-middle' (MITM) attack: the attacker intercepts traffic between your device and the server, reading credentials in plain text."
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=900&q=80",
+        "alt": "Person using laptop in a coffee shop on public WiFi",
+        "caption": "Public Wi-Fi without a VPN is like sending a postcard instead of a sealed envelope — anyone handling it can read it."
+      },
+      {
+        "type": "callout",
+        "variant": "tip",
+        "title": "VPN: One Tool, Maximum Protection",
+        "content": "A VPN (Virtual Private Network) encrypts all traffic leaving your device before it hits the network. Even on compromised Wi-Fi, attackers see only scrambled data. Mullvad, ProtonVPN, and Windscribe offer trustworthy free or low-cost options. Enable it automatically on any network you don't own."
+      },
+      {
+        "type": "h2",
+        "text": "Recognising Fraud in Real Time"
+      },
+      {
+        "type": "p",
+        "content": "The most powerful fraud prevention tool you have costs nothing: instant transaction notifications. Enable alerts on every card and account. When a fraudulent charge occurs — whether a £1 'test transaction' probing a stolen card, or a large unauthorised transfer — you know within seconds, not days."
+      },
+      {
+        "type": "list",
+        "title": "If you see an unrecognised transaction:",
+        "items": [
+          "Freeze your card immediately via your banking app — most apps allow instant freeze",
+          "Do not click any link in a text or email — go directly to your bank's official app or website",
+          "Call the number printed on the back of your physical card",
+          "Report the transaction as fraudulent — banks are legally obligated to investigate",
+          "Change your banking password and enable MFA if not already active",
+          "Check for any other accounts linked to the same email or phone number"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "The time between a card being compromised and the first fraudulent transaction has fallen from hours to minutes. Real-time alerts are no longer a convenience — they're essential.",
+        "source": "UK Finance Annual Fraud Report 2024"
+      },
+      {
+        "type": "h2",
+        "text": "The Authorised Push Payment Problem"
+      },
+      {
+        "type": "p",
+        "content": "The most damaging modern fraud is 'Authorised Push Payment' (APP) fraud — where you are tricked into voluntarily transferring money to a fraudster. Because you authorised the transfer, banks historically resisted reimbursement. In the UK, new 2024 rules now require banks to reimburse most APP fraud victims. Globally, the legal landscape varies significantly."
+      },
+      {
+        "type": "callout",
+        "variant": "warning",
+        "title": "Investment Scam Red Flags",
+        "content": "Unusually high guaranteed returns, pressure to act quickly, requests to withdraw cash and deposit into another account, or instructions to keep the investment secret — these are all hallmarks of investment fraud. Legitimate investment platforms are regulated and patient."
+      }
+    ],
+    "keyTakeaways": [
+      "Banks never ask for your PIN, password, or OTP via text or phone — full stop",
+      "Enable instant transaction alerts — catching fraud in seconds matters more than catching it in days",
+      "Always use a VPN on public Wi-Fi before accessing any financial service",
+      "APP (Authorised Push Payment) fraud is the fastest-growing financial crime — verify before you transfer",
+      "Freeze your card instantly via your banking app the moment something looks wrong"
+    ],
+    "challengeQuestionIds": ["q2", "q7"]
+  },
+
+  "m3": {
+    "heroImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=80",
+    "heroAlt": "Healthcare professional working with a computer system in a hospital",
+    "readTime": "8 min read",
+    "forSchools": false,
+    "intro": "Healthcare data is the most valuable personal data in existence — worth 10 to 40 times more on the dark web than financial credentials. In clinical environments, a single access decision can affect not just privacy, but patient safety. Understanding why data protection matters in healthcare — and what individuals must do — is a professional responsibility, not optional training.",
+    "sections": [
+      {
+        "type": "h2",
+        "text": "Why Healthcare Data Is Different"
+      },
+      {
+        "type": "p",
+        "content": "A stolen credit card number can be cancelled in minutes. A stolen medical record — containing diagnoses, prescriptions, insurance details, social security numbers, and family history — cannot be changed. This permanence makes healthcare data extraordinarily valuable to attackers, and breaches extraordinarily damaging to patients."
+      },
+      {
+        "type": "stat",
+        "value": "$10.9M",
+        "label": "average cost of a healthcare data breach in 2023",
+        "context": "Source: IBM Cost of a Data Breach Report 2023 — healthcare leads all industries for 13th consecutive year"
+      },
+      {
+        "type": "h2",
+        "text": "The Insider Threat Problem"
+      },
+      {
+        "type": "p",
+        "content": "Unlike most industries, healthcare's biggest data breach risk comes from inside. Staff accessing records of celebrities, ex-partners, family members, or simply out of curiosity account for a significant portion of all healthcare privacy violations. The HIPAA Journal estimates over 30% of all healthcare breaches involve employees accessing records without a valid clinical reason."
+      },
+      {
+        "type": "callout",
+        "variant": "warning",
+        "title": "The Minimum Necessary Standard",
+        "content": "HIPAA and most equivalent regulations require the 'minimum necessary' principle: you should only access, use, or disclose patient information to the extent needed to accomplish your specific task. Accessing a colleague's record 'just to check', or reviewing records of patients not under your care, is a violation — regardless of intent."
+      },
+      {
+        "type": "h2",
+        "text": "Credential Sharing: The Silent Violation"
+      },
+      {
+        "type": "p",
+        "content": "Sharing login credentials is one of the most common — and most consequential — security violations in healthcare. It feels harmless: a busy colleague needs to finish charting, a team member forgot their password, someone is helping cover. But shared credentials destroy the audit trail that protects both patients and staff."
+      },
+      {
+        "type": "p",
+        "content": "Every action taken with your credentials is logged under your name. If someone uses your login to access, modify, or exfiltrate patient data, you are legally accountable. The fact that you shared your credentials in good faith is not a defence under HIPAA, GDPR, or similar frameworks."
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=900&q=80",
+        "alt": "Secure login screen on a medical computer system",
+        "caption": "Each healthcare professional must have unique access credentials — the audit log exists to protect patients and staff alike."
+      },
+      {
+        "type": "h2",
+        "text": "Patient Rights and Data Requests"
+      },
+      {
+        "type": "p",
+        "content": "Patients have a legal right to access their own medical records. In the US under HIPAA, in the EU under GDPR, and in most other jurisdictions, patients can request copies of their health information and expect a response within a defined timeframe. However, 'the patient asked for it' does not mean any delivery method is acceptable."
+      },
+      {
+        "type": "list",
+        "title": "Secure patient data request procedure:",
+        "items": [
+          "Verify the patient's identity through official channels before releasing any information",
+          "Use only approved, encrypted communication methods — never unencrypted personal email",
+          "Document every request and response in the audit log",
+          "For third-party requests (insurers, employers), require written authorisation signed by the patient",
+          "If in doubt, consult your privacy officer before releasing — delay is better than a breach"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Privacy in healthcare is not a compliance checkbox. It is a clinical value — a dimension of the therapeutic relationship that makes patients feel safe enough to disclose what clinicians need to know to help them.",
+        "source": "World Health Organization — Global Patient Safety Action Plan"
+      },
+      {
+        "type": "h2",
+        "text": "Ransomware: When Systems Go Dark"
+      },
+      {
+        "type": "p",
+        "content": "Ransomware attacks against hospitals have crossed from data crime into patient safety crisis. When Düsseldorf University Hospital's systems were encrypted by ransomware in 2020, a patient requiring emergency care was redirected to another hospital — where she died. These attacks are not abstract; they are life-threatening."
+      },
+      {
+        "type": "callout",
+        "variant": "info",
+        "title": "How Ransomware Gets In",
+        "content": "Over 80% of ransomware attacks begin with a phishing email to a staff member. The attacker gains access, moves laterally through systems, and deploys the ransomware when maximally positioned. A single click from a single employee can lock down an entire hospital. Phishing awareness in healthcare is patient safety training."
+      }
+    ],
+    "keyTakeaways": [
+      "Healthcare data is 10–40× more valuable than financial data — making it the top target",
+      "Shared credentials destroy the audit trail and create personal legal liability for the lender",
+      "The minimum necessary principle: only access what you need, when you need it, for the specific task",
+      "Patient data requests require identity verification and encrypted delivery — good intentions aren't enough",
+      "Ransomware in hospitals is a patient safety issue — phishing awareness is clinical safety training"
+    ],
+    "challengeQuestionIds": ["q3", "q9"]
+  },
+
+  "m4": {
+    "heroImage": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200&q=80",
+    "heroAlt": "Aerial view of a lush green forest and river",
+    "readTime": "7 min read",
+    "forSchools": true,
+    "schoolsNote": "This module is widely used in secondary and university curricula for sustainability education.",
+    "intro": "The choices we make every day — what we eat, how we travel, what we buy — are not neutral. They carry a carbon cost that is shaping the planet's future. But not all choices are equal. Understanding which actions actually move the needle separates meaningful impact from performative effort.",
+    "sections": [
+      {
+        "type": "h2",
+        "text": "What Is a Carbon Footprint?"
+      },
+      {
+        "type": "p",
+        "content": "A carbon footprint is the total greenhouse gas emissions caused by an individual, organisation, event, or product, expressed as carbon dioxide equivalent (CO₂e). It accounts for all six Kyoto greenhouse gases — CO₂, methane, nitrous oxide, and others — converted to a common unit for comparison."
+      },
+      {
+        "type": "p",
+        "content": "The concept was popularised in the early 2000s — including through a major BP advertising campaign. Critics have noted this as a deliberate strategy to shift responsibility from systemic industrial emitters to individual consumers. Both systemic and individual change are necessary, but understanding this framing helps us engage critically with climate discourse."
+      },
+      {
+        "type": "stat",
+        "value": "14.5%",
+        "label": "of global greenhouse gas emissions from animal agriculture",
+        "context": "Source: FAO — Tackling Climate Change Through Livestock (2013)"
+      },
+      {
+        "type": "h2",
+        "text": "The Food System: The Biggest Individual Lever"
+      },
+      {
+        "type": "p",
+        "content": "Research published in Science by Joseph Poore and Thomas Nemecek analysed 38,700 farms across 119 countries and found that food system emissions account for approximately 26% of global greenhouse gases. More importantly, it found that shifting to a plant-rich diet is 'the single biggest way individuals can reduce their environmental impact on Earth'."
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=900&q=80",
+        "alt": "Colourful array of fresh vegetables and plant-based foods",
+        "caption": "A plant-rich diet can cut an individual's food-related carbon emissions by up to 73% — the most powerful dietary shift available."
+      },
+      {
+        "type": "callout",
+        "variant": "info",
+        "title": "Beef vs Everything Else",
+        "content": "Producing 1 kg of beef generates approximately 60 kg of CO₂e. The same protein from legumes generates about 0.9 kg CO₂e — a 66× difference. Even chicken (6 kg CO₂e/kg) and pork (7 kg) are dramatically lower than beef. Reducing beef consumption — not necessarily eliminating all meat — has outsized impact."
+      },
+      {
+        "type": "h2",
+        "text": "What 'Carbon Neutral' Actually Means"
+      },
+      {
+        "type": "p",
+        "content": "Carbon neutrality (or net-zero) means that the amount of CO₂ emitted is balanced by an equivalent amount removed from the atmosphere. It does not mean zero emissions — it means emissions are compensated, usually through carbon offsets (funding projects that absorb or prevent equivalent emissions elsewhere)."
+      },
+      {
+        "type": "p",
+        "content": "Carbon offsets have faced significant scrutiny. A 2023 Guardian investigation found that over 90% of Verra's rainforest offset credits — widely used by major corporations — were 'phantom credits' with no real-world carbon absorption. This has triggered a crisis of credibility in voluntary carbon markets and tightened regulatory attention on net-zero claims."
+      },
+      {
+        "type": "callout",
+        "variant": "warning",
+        "title": "Net-Zero vs Carbon Neutral vs Climate Positive",
+        "content": "These terms are not interchangeable. Net-zero typically refers to a specific, science-based target aligned with 1.5°C pathways. Carbon neutral is often a marketing claim with less rigorous standards. Climate positive (or carbon negative) means removing more than you emit. Always ask: what standard is this claim measured against?"
+      },
+      {
+        "type": "h2",
+        "text": "Transport: The Second Big Lever"
+      },
+      {
+        "type": "p",
+        "content": "After diet, transport is the second largest source of personal carbon emissions — particularly aviation. A single return flight from London to New York generates roughly 1.6 tonnes of CO₂e per passenger. That's equivalent to two months of average UK per-person emissions. Train travel produces 80–90% fewer emissions per kilometre than flying."
+      },
+      {
+        "type": "list",
+        "title": "Transport choices ranked by emissions (lowest to highest):",
+        "items": [
+          "Walking and cycling: effectively zero operational emissions",
+          "Electric vehicle on a renewable grid: ~0 operational, moderate manufacturing emissions",
+          "Train: 14–41g CO₂e per passenger km",
+          "Coach/bus: ~27g CO₂e per passenger km",
+          "Petrol car (single occupancy): ~170g CO₂e per km",
+          "Short-haul flight: ~255g CO₂e per passenger km",
+          "Long-haul flight: ~195g CO₂e per passenger km (but at altitude, warming effect is ~2–4× higher)"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "We cannot solve the climate crisis with individual action alone. But individual action, at scale, changes markets, changes politics, and changes what is culturally acceptable.",
+        "source": "Dr. Katharine Hayhoe, Chief Scientist, The Nature Conservancy"
+      }
+    ],
+    "keyTakeaways": [
+      "Food choices — especially reducing beef — are the single largest individual climate lever",
+      "Carbon neutral means net-zero through offsets, not zero emissions — standards vary widely",
+      "A single transatlantic flight generates more emissions than months of dietary changes",
+      "Carbon offset quality varies enormously — scrutinise claims rather than accepting them at face value",
+      "Individual action changes markets and culture, even when systemic change is the ultimate goal"
+    ],
+    "challengeQuestionIds": ["q5", "q6", "q54", "q55"]
+  },
+
+  "m5": {
+    "heroImage": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=1200&q=80",
+    "heroAlt": "Ocean plastic waste washing up on a beach shoreline",
+    "readTime": "7 min read",
+    "forSchools": true,
+    "schoolsNote": "Widely used in environmental science, geography, and biology curricula globally.",
+    "intro": "We are living through the planet's sixth mass extinction — and unlike the five before it, this one has a name: the Anthropocene. Human activity is reshaping Earth's ecosystems faster than they can adapt. But understanding the mechanisms — from ocean plastic to e-waste to species collapse — transforms concern into action.",
+    "sections": [
+      {
+        "type": "h2",
+        "text": "The Sixth Mass Extinction"
+      },
+      {
+        "type": "p",
+        "content": "Mass extinction events occur when over 75% of species on Earth are lost in a geologically short time period. Five have occurred naturally — the most recent being the asteroid impact that wiped out non-avian dinosaurs 66 million years ago. The sixth is happening now, and its cause is not geological. It is us."
+      },
+      {
+        "type": "stat",
+        "value": "1,000×",
+        "label": "faster than the natural background extinction rate",
+        "context": "Source: WWF Living Planet Report — current species loss driven by habitat destruction, pollution, and climate change"
+      },
+      {
+        "type": "p",
+        "content": "According to the WWF Living Planet Index, monitored wildlife populations have declined by an average of 69% since 1970. The primary drivers are habitat destruction (principally deforestation for agriculture), direct exploitation (overfishing and hunting), pollution, invasive species, and climate change — which is increasingly becoming the dominant driver."
+      },
+      {
+        "type": "callout",
+        "variant": "warning",
+        "title": "Why Biodiversity Loss Affects You Directly",
+        "content": "Biodiversity isn't just an environmental metric — it underpins human survival. 75% of food crops depend on animal pollination. Mangroves and coral reefs protect coastlines. Forests regulate rainfall and absorb carbon. When ecosystems collapse, agricultural yields fall, water supplies destabilise, and disease risk increases. Biodiversity loss is a human safety issue."
+      },
+      {
+        "type": "h2",
+        "text": "The Ocean Plastic Crisis"
+      },
+      {
+        "type": "p",
+        "content": "Approximately 11 million metric tonnes of plastic enter the ocean every year — roughly equivalent to a rubbish lorry per minute. By 2050, without systemic change, the ocean could contain more plastic by weight than fish. This plastic doesn't disappear; it fragments into microplastics, entering food chains from plankton to the fish on your plate."
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1621451537084-482c73073a0f?w=900&q=80",
+        "alt": "Sea turtle swimming near plastic debris underwater",
+        "caption": "Marine animals mistake plastic fragments for food, causing internal injury, starvation, and death — across thousands of species."
+      },
+      {
+        "type": "p",
+        "content": "Crucially, 80% of ocean plastic originates on land — not from ships or ocean dumping. Rivers act as conveyor belts, transporting mismanaged waste from inland areas to the sea. The top 1,000 rivers account for approximately 80% of riverine plastic input to oceans, mostly in Asia and Africa — regions where waste infrastructure investment is critically needed."
+      },
+      {
+        "type": "h2",
+        "text": "The E-Waste Emergency"
+      },
+      {
+        "type": "p",
+        "content": "Electronic waste (e-waste) is the fastest-growing waste stream on Earth. In 2022, the world generated 62 million tonnes of e-waste — only 22% was formally documented as collected and recycled. The rest was dumped, burned, or processed informally under hazardous conditions."
+      },
+      {
+        "type": "callout",
+        "variant": "info",
+        "title": "What's Inside Your Old Phone",
+        "content": "A smartphone contains over 60 elements from the periodic table — including gold, silver, palladium, cobalt, and rare earth elements like neodymium and dysprosium. Certified e-waste recycling recovers these materials, reducing the need for environmentally destructive mining. The urban mine in discarded electronics is genuinely valuable."
+      },
+      {
+        "type": "quote",
+        "text": "We don't have a problem with technology. We have a problem with the culture that treats technology as disposable. The most sustainable phone is the one you already own.",
+        "source": "Kyle Wiens, CEO, iFixit — Right to Repair activist"
+      },
+      {
+        "type": "h2",
+        "text": "The Circular Economy Model"
+      },
+      {
+        "type": "p",
+        "content": "The circular economy is an economic model designed to eliminate waste and keep materials in use. Instead of the traditional 'take-make-dispose' linear model, it prioritises: designing products for longevity and repairability, reusing and refurbishing before replacing, and recycling only as a last resort before disposal."
+      },
+      {
+        "type": "list",
+        "title": "Practical circular economy actions at the individual level:",
+        "items": [
+          "Choose repairability: buy products with available spare parts and user-serviceable components",
+          "Donate or resell functional electronics, clothing, and furniture before replacing",
+          "Use certified e-waste drop-off points or manufacturer take-back schemes for old devices",
+          "Reduce single-use plastic through systematic substitution — reusable water bottles, bags, containers",
+          "Compost organic waste — food in landfill generates methane, a greenhouse gas 80× more potent than CO₂",
+          "Support right-to-repair legislation — policy is more powerful than individual action"
+        ]
+      }
+    ],
+    "keyTakeaways": [
+      "Species are going extinct 1,000× faster than the natural rate — primarily driven by human activity",
+      "80% of ocean plastic comes from land via rivers — waste management on land prevents ocean pollution",
+      "E-waste is the fastest-growing waste stream — and contains recoverable valuable materials",
+      "Biodiversity loss directly threatens food security, water supply, and disease control",
+      "The circular economy redesigns the system — reduce and reuse always outrank recycling"
+    ],
+    "challengeQuestionIds": ["q8", "q10", "q34"]
+  },
+
+  "m6": {
+    "heroImage": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&q=80",
+    "heroAlt": "Judge's gavel on wooden desk with legal books in background",
+    "readTime": "8 min read",
+    "forSchools": false,
+    "intro": "Every time you tap 'I Agree', open an app, or log into a service, you are operating within a legal framework — whether you know it or not. Digital rights are the civil rights of the 21st century. Understanding them is not just useful — it is essential for navigating modern life with autonomy and safety.",
+    "sections": [
+      {
+        "type": "h2",
+        "text": "The Legal Landscape of Digital Life"
+      },
+      {
+        "type": "p",
+        "content": "The digital world is governed by a complex, overlapping web of laws: privacy regulations (GDPR, CCPA), consumer protection frameworks, data breach notification requirements, AI governance rules, and sector-specific legislation for healthcare, finance, and communications. Most users are unaware of most of these protections — which is precisely why companies often fail to honour them."
+      },
+      {
+        "type": "stat",
+        "value": "82%",
+        "label": "of people have never fully read a Terms of Service agreement",
+        "context": "Source: Deloitte Consumer Review — yet these contracts bind users to significant obligations"
+      },
+      {
+        "type": "h2",
+        "text": "Your GDPR Rights (and Global Equivalents)"
+      },
+      {
+        "type": "p",
+        "content": "The EU General Data Protection Regulation (GDPR) is the world's most comprehensive privacy law, and since its 2018 enactment has become a global standard. Similar frameworks now exist in the UK (UK GDPR), Brazil (LGPD), India (DPDP), California (CCPA/CPRA), and dozens of other jurisdictions."
+      },
+      {
+        "type": "list",
+        "title": "Your 8 core rights under GDPR:",
+        "items": [
+          "Right to be informed: know how your data is used before you consent",
+          "Right of access: request a full copy of all data a company holds on you",
+          "Right to rectification: have inaccurate data corrected within 1 month",
+          "Right to erasure ('right to be forgotten'): request deletion of your data",
+          "Right to restrict processing: pause data use while a dispute is investigated",
+          "Right to data portability: receive your data in a machine-readable format",
+          "Right to object: stop processing for marketing, profiling, or research",
+          "Rights related to automated decisions: challenge decisions made purely by algorithms"
+        ]
+      },
+      {
+        "type": "callout",
+        "variant": "tip",
+        "title": "Exercise Your Rights",
+        "content": "Send a Subject Access Request (SAR) to any company holding your data — they must respond within 30 days and provide everything free of charge. Tools like Rightly (UK) and Privacy Bee (US) automate this process. It is often surprising how much data has been collected."
+      },
+      {
+        "type": "h2",
+        "text": "What 'I Agree' Actually Means"
+      },
+      {
+        "type": "p",
+        "content": "Clickwrap agreements — the 'I Agree' button — create legally binding contracts. Courts in the US (Nguyen v. Barnes & Noble), EU, and UK have consistently upheld these agreements, provided the terms were reasonably accessible. You are legally bound by what you agree to, including arbitration clauses, class action waivers, and data use permissions."
+      },
+      {
+        "type": "callout",
+        "variant": "warning",
+        "title": "Arbitration Clauses: The Hidden Waiver",
+        "content": "Many Terms of Service include mandatory arbitration clauses — meaning you waive your right to sue the company in court if they harm you. Instead, disputes go to private arbitrators often selected by the company. These clauses are enforceable in the US and some other jurisdictions. Opt-out windows (typically 30 days) exist in some agreements."
+      },
+      {
+        "type": "h2",
+        "text": "Location Tracking and Consent"
+      },
+      {
+        "type": "p",
+        "content": "Background location tracking — where an app continuously records your location even when not in use — requires explicit, granular consent under GDPR and most modern privacy laws. Yet many apps bundle this consent into their general Terms of Service or request it through a vague 'improve your experience' framing that courts are increasingly ruling as insufficient."
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1551703599-6b3e8379aa8c?w=900&q=80",
+        "alt": "Smartphone location permission dialog on screen",
+        "caption": "Granular permission controls — allowing location only while using the app, not continuously — are legally required in many jurisdictions."
+      },
+      {
+        "type": "quote",
+        "text": "Surveillance is the business model of the internet. Most of what feels like free technology is paid for with personal data that users don't realise they're handing over.",
+        "source": "Bruce Schneier, Security technologist and author of 'Data and Goliath'"
+      },
+      {
+        "type": "h2",
+        "text": "AI, Automated Decisions, and Your Rights"
+      },
+      {
+        "type": "p",
+        "content": "The EU AI Act (2024) introduces the world's first comprehensive regulation of AI systems, categorising them by risk level. High-risk AI systems — including those used in credit scoring, hiring, medical diagnosis, and law enforcement — face strict transparency, accuracy, and human oversight requirements. Companies deploying these systems bear liability for harm caused."
+      },
+      {
+        "type": "callout",
+        "variant": "info",
+        "title": "Your Right to Human Review",
+        "content": "Under GDPR Article 22, you have the right not to be subject to decisions made solely by automated processing that significantly affect you — including loan denials, job screening, and insurance pricing. You can request human review of any such decision. This right is not widely communicated by companies, but it is legally enforceable."
+      }
+    ],
+    "keyTakeaways": [
+      "GDPR gives you 8 enforceable rights — including access, erasure, and objection to automated decisions",
+      "Clicking 'I Agree' creates a binding contract — including arbitration clauses you likely didn't notice",
+      "Background location tracking requires explicit consent — bundled consent clauses are increasingly invalid",
+      "The EU AI Act holds companies liable for harm caused by AI systems they deploy",
+      "You can request all data a company holds about you — tools make this process simple"
+    ],
+    "challengeQuestionIds": ["q11", "q15", "q32", "q39"]
+  },
+
+  "m7": {
+    "heroImage": "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=1200&q=80",
+    "heroAlt": "Person scrolling through social media content on smartphone",
+    "readTime": "6 min read",
+    "forSchools": false,
+    "intro": "Social media has democratised content creation — and liability. Every post, share, and story you publish exists within a legal framework that most creators have never read. From copyright infringement to defamation, from undisclosed sponsorships to privacy violations, the legal risks of online content are real, financially significant, and largely unknown to the people taking them.",
+    "sections": [
+      {
+        "type": "h2",
+        "text": "Copyright: What You Can and Cannot Share"
+      },
+      {
+        "type": "p",
+        "content": "Copyright protects original creative works — photographs, music, video, text, artwork — automatically from creation, without registration. This means virtually every image you find online is protected by copyright, regardless of whether it has a watermark. Sharing copyrighted content without permission or a valid licence constitutes infringement."
+      },
+      {
+        "type": "callout",
+        "variant": "danger",
+        "title": "The Business Page Problem",
+        "content": "Sharing a meme, photograph, or graphic on a personal page is one thing. Sharing it on a business page — even without commercial intent — is treated more seriously by courts. The association with commercial activity strengthens the copyright holder's case and increases potential damages. Always use licensed or original content on business accounts."
+      },
+      {
+        "type": "stat",
+        "value": "$150,000",
+        "label": "maximum statutory damages per infringed work under US copyright law",
+        "context": "Source: 17 U.S.C. § 504 — for wilful infringement; even innocent infringement can attract $750–$30,000 per work"
+      },
+      {
+        "type": "h2",
+        "text": "Fair Use: The Widely Misunderstood Exception"
+      },
+      {
+        "type": "p",
+        "content": "Fair use (US) and fair dealing (UK/Commonwealth) allow limited use of copyrighted material for purposes like criticism, commentary, news reporting, education, and parody — without requiring permission. However, fair use is not a blanket licence. It is evaluated case-by-case across four factors: purpose and character, nature of the work, amount used, and market impact."
+      },
+      {
+        "type": "list",
+        "title": "Common misconceptions about fair use:",
+        "items": [
+          "'I gave credit' — attribution does not create fair use; it just reduces moral culpability",
+          "'I didn't monetise it' — non-commercial use is a factor, not a guarantee of fair use",
+          "'It was only a small portion' — brief clips of highly creative or iconic works may not qualify",
+          "'I found it on Google Images' — appearing in search results does not mean an image is free to use",
+          "'The platform didn't remove it' — platform inaction does not confirm legality"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Defamation: When Posts Cross the Legal Line"
+      },
+      {
+        "type": "p",
+        "content": "Defamation is the publication of a false statement of fact that damages someone's reputation. Online defamation (libel) follows the same legal standards as traditional defamation, with one important difference: the internet's reach and permanence can amplify harm dramatically, increasing potential damages."
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=900&q=80",
+        "alt": "Person typing a review or post on laptop keyboard",
+        "caption": "Negative reviews and criticism are legally protected — provided they are true, opinion-based, or clearly satirical. False statements of fact are not."
+      },
+      {
+        "type": "callout",
+        "variant": "info",
+        "title": "Opinion vs Fact",
+        "content": "Statements of opinion are generally not defamatory ('I think this restaurant is terrible'). Statements of false fact are ('The chef has been investigated for food fraud'). The line can be blurry. Context matters: a clearly satirical account signals opinion. A realistic account stating false facts signals defamation."
+      },
+      {
+        "type": "h2",
+        "text": "Influencer Law: The Disclosure Obligation"
+      },
+      {
+        "type": "p",
+        "content": "If you receive payment, free products, affiliate commission, or any material benefit in exchange for promoting something, you must clearly disclose the relationship. This applies regardless of platform, audience size, or whether the content seems promotional. The FTC (US), ASA (UK), and equivalent bodies globally enforce this obligation."
+      },
+      {
+        "type": "quote",
+        "text": "Hiding that you're being paid to say something nice about a product is a lie. The platforms know it. Regulators are acting on it. Your followers deserve to know it.",
+        "source": "UK Advertising Standards Authority enforcement guidance, 2023"
+      },
+      {
+        "type": "list",
+        "title": "Disclosure that works (and what doesn't):",
+        "items": [
+          "Works: '#Ad' or '#Sponsored' prominently placed at the START of a caption or video",
+          "Works: 'This video is sponsored by [Brand]' stated verbally at the beginning",
+          "Doesn't work: '#ad' buried after 20 other hashtags",
+          "Doesn't work: 'Thanks [Brand]!' without clarifying the commercial nature",
+          "Doesn't work: Disclosing in a comment while the post itself is not disclosed",
+          "Doesn't work: Platform-native disclosure tools alone (supplementary verbal/text disclosure is still required)"
+        ]
+      }
+    ],
+    "keyTakeaways": [
+      "Every image online is automatically copyrighted — 'found it on Google' is not a defence",
+      "Business pages face greater copyright liability than personal pages — use original or licensed content",
+      "Fair use is evaluated case-by-case — common misconceptions (credit = fair use) don't hold in court",
+      "False statements of fact are defamatory; true statements and opinions are protected",
+      "All paid promotions must be clearly disclosed — '#ad' buried in hashtags does not count"
+    ],
+    "challengeQuestionIds": ["q12", "q13", "q14"]
+  },
+
+  "m8": {
+    "heroImage": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&q=80",
+    "heroAlt": "Deep space photograph showing stars, nebula and galaxies",
+    "readTime": "9 min read",
+    "forSchools": true,
+    "schoolsNote": "This module is actively promoted to schools, universities, and science education programmes. Suitable for STEM curricula from secondary level upward. Contact us for curriculum-integrated versions.",
+    "intro": "Space is not just the backdrop of science fiction — it is an active frontier with real implications for technology, climate, security, and the deepest questions about existence. Understanding the universe we inhabit, from the mechanics of gravity to the politics of orbital debris, is part of being an informed citizen of the 21st century.",
+    "sections": [
+      {
+        "type": "h2",
+        "text": "Tidal Locking: Why We Only See One Side of the Moon"
+      },
+      {
+        "type": "p",
+        "content": "The Moon always presents the same face to Earth — not because it doesn't rotate, but because its rotation period precisely matches its orbital period around Earth. This is called tidal locking, and it's a direct consequence of gravitational forces over billions of years."
+      },
+      {
+        "type": "p",
+        "content": "Earth's gravity creates a slight tidal bulge on the Moon. Over time, the gravitational drag from this bulge slowed the Moon's rotation until its rotation period equalled its orbital period — roughly 27.3 days. Now both are synchronised, and the same hemisphere permanently faces Earth. The 'dark side of the Moon' is not dark — it receives as much sunlight as the near side. It's simply the side we never see from Earth."
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1532693322450-2cb5c511067d?w=900&q=80",
+        "alt": "Full moon in a clear night sky",
+        "caption": "The Moon's near side has been familiar to humans for millennia — it took the Soviet Luna 3 probe in 1959 to photograph the far side for the first time."
+      },
+      {
+        "type": "h2",
+        "text": "Black Holes and the Nature of Time"
+      },
+      {
+        "type": "p",
+        "content": "Einstein's general theory of relativity predicts that gravity curves spacetime — and the stronger the gravity, the more extreme the curvature. Near a black hole, where gravity is incomprehensibly intense, spacetime curves so severely that time itself slows relative to a distant observer."
+      },
+      {
+        "type": "callout",
+        "variant": "info",
+        "title": "Gravitational Time Dilation in Practice",
+        "content": "This isn't science fiction — it's why GPS satellites need relativistic corrections. GPS satellites orbit at 20,200 km altitude where gravity is weaker, meaning their clocks run faster than clocks on Earth's surface. Without corrections accounting for both special and general relativity, GPS positioning would drift by about 10 km per day."
+      },
+      {
+        "type": "stat",
+        "value": "6.5B",
+        "label": "solar masses — mass of M87*, the first black hole ever imaged",
+        "context": "Photographed by the Event Horizon Telescope collaboration in 2019 — 55 million light-years from Earth"
+      },
+      {
+        "type": "h2",
+        "text": "The Search for Life: Habitable Zones and Exoplanets"
+      },
+      {
+        "type": "p",
+        "content": "As of 2024, astronomers have confirmed over 5,500 exoplanets — planets orbiting stars other than our Sun. The search for life focuses particularly on planets in the 'habitable zone' (or Goldilocks zone): the orbital range where stellar radiation allows liquid water to exist on a planet's surface."
+      },
+      {
+        "type": "p",
+        "content": "The James Webb Space Telescope (JWST), launched in 2021, is the most powerful space observatory ever built. It can analyse exoplanet atmospheres by observing how starlight filters through them — searching for biosignatures like oxygen, methane, and water vapour. JWST has already detected carbon dioxide and water vapour in exoplanet atmospheres."
+      },
+      {
+        "type": "quote",
+        "text": "The question is not whether life exists elsewhere in the universe. Given the numbers — 200 billion trillion stars — the question is whether we are capable of finding it.",
+        "source": "Dr. Sara Seager, MIT astrophysicist and exoplanet pioneer"
+      },
+      {
+        "type": "h2",
+        "text": "Dark Matter: What We Cannot See, But Know Exists"
+      },
+      {
+        "type": "p",
+        "content": "Approximately 85% of all matter in the universe is dark matter — a hypothetical form of matter that does not interact with electromagnetic radiation (meaning it doesn't emit, absorb, or reflect light) but exerts gravitational influence on visible matter."
+      },
+      {
+        "type": "p",
+        "content": "Its existence is inferred from galaxy rotation curves (galaxies rotate too fast at their outer edges to be explained by visible matter alone), gravitational lensing (light bends more than visible mass would suggest), and the large-scale structure of the universe. What dark matter actually is remains one of physics' greatest unsolved questions."
+      },
+      {
+        "type": "h2",
+        "text": "The Kessler Syndrome: Space Debris as an Existential Risk"
+      },
+      {
+        "type": "p",
+        "content": "Donald Kessler, a NASA scientist, proposed in 1978 that if orbital debris density exceeded a critical threshold, collisions between objects would create more debris, triggering more collisions in a self-sustaining chain reaction. This Kessler Syndrome could render certain orbital bands — particularly low Earth orbit (LEO), where most satellites operate — permanently unusable."
+      },
+      {
+        "type": "callout",
+        "variant": "danger",
+        "title": "The Debris Problem Is Already Critical",
+        "content": "There are currently over 27,000 tracked objects in orbit and an estimated 1 million fragments too small to track but large enough to destroy a satellite. SpaceX's Starlink alone is adding thousands of satellites to LEO. Without enforceable deorbit requirements and active debris removal, the Kessler Syndrome is not a theoretical future — it is an emerging present."
+      },
+      {
+        "type": "list",
+        "title": "What losing LEO access would mean:",
+        "items": [
+          "GPS and navigation satellites operate in MEO but rely on LEO infrastructure for maintenance",
+          "Weather forecasting relies heavily on LEO satellites",
+          "Internet connectivity for billions relies on LEO constellations (Starlink, OneWeb)",
+          "Earth observation for climate science, disaster response, and agriculture",
+          "Future human spaceflight would become exponentially more dangerous"
+        ]
+      }
+    ],
+    "keyTakeaways": [
+      "Tidal locking is why the Moon always shows the same face — both rotation and orbit take 27.3 days",
+      "Gravitational time dilation is real and measurable — GPS systems correct for it daily",
+      "Over 5,500 exoplanets confirmed — JWST is now analysing their atmospheres for life signatures",
+      "Dark matter constitutes ~85% of all matter — its nature is physics' greatest open question",
+      "The Kessler Syndrome threatens to make low Earth orbit permanently unusable — space debris is a global governance challenge"
+    ],
+    "challengeQuestionIds": ["q16", "q17", "q18", "q19", "q33", "q40"]
+  },
+
+  "m9": {
+    "heroImage": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=1200&q=80",
+    "heroAlt": "Colourful clothing hanging on rails in a fast fashion store",
+    "readTime": "6 min read",
+    "forSchools": true,
+    "schoolsNote": "Relevant to design, environmental science, and social studies curricula. Strong content for projects on sustainability and consumerism.",
+    "intro": "Fashion is the second most polluting industry on Earth — after oil. Behind every garment is a supply chain that stretches across continents, employs tens of millions in conditions that vary from decent to exploitative, and generates enormous environmental cost. Understanding this system — and how individual choices interact with it — is genuinely important knowledge.",
+    "sections": [
+      {
+        "type": "h2",
+        "text": "What 'Fast Fashion' Actually Means"
+      },
+      {
+        "type": "p",
+        "content": "Fast fashion describes a business model built on: extremely rapid production cycles (from runway to retail in weeks), artificially low prices enabled by offshore labour arbitrage, disposability (garments designed for short wear cycles), and high-frequency trend turnover to drive repeat purchasing. The model democratised access to trend-led clothing — and externalised its environmental and social costs."
+      },
+      {
+        "type": "stat",
+        "value": "92M",
+        "label": "tonnes of textile waste generated by the fashion industry annually",
+        "context": "Source: UNEP — equivalent to a rubbish truck of clothes every second"
+      },
+      {
+        "type": "p",
+        "content": "The global fashion industry produces 10% of annual carbon emissions — more than international aviation and shipping combined. It is responsible for 20% of global wastewater, largely from textile dyeing. Synthetic fabrics (polyester, nylon, acrylic) shed microfibres when washed, contributing significantly to microplastic ocean pollution."
+      },
+      {
+        "type": "h2",
+        "text": "The Human Cost: Labour in Fashion Supply Chains"
+      },
+      {
+        "type": "p",
+        "content": "The Rana Plaza collapse in Bangladesh in 2013 — in which 1,134 garment workers died in a structurally compromised building they had been ordered to enter despite visible cracks — forced global attention on fashion's supply chain conditions. A decade later, progress has been uneven."
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=900&q=80",
+        "alt": "Clothing factory workers sewing garments on industrial machines",
+        "caption": "Fashion's supply chain employs over 75 million workers worldwide — predominantly women in the Global South."
+      },
+      {
+        "type": "callout",
+        "variant": "warning",
+        "title": "The Living Wage Gap",
+        "content": "A 'minimum wage' is the legal floor. A 'living wage' covers basic needs — food, housing, healthcare, and education — without requiring excessive overtime. Research by Global Living Wage Coalition shows garment workers in most major producing countries earn 40–70% below a living wage, even when earning at or above the national minimum."
+      },
+      {
+        "type": "h2",
+        "text": "Greenwashing in Fashion"
+      },
+      {
+        "type": "p",
+        "content": "As sustainability becomes a marketing asset, greenwashing — presenting products as more environmentally beneficial than they are — has proliferated. The UK Competition and Markets Authority (CMA) found in 2023 that 40% of green claims made by fashion brands were potentially misleading or unsubstantiated."
+      },
+      {
+        "type": "quote",
+        "text": "There is no such thing as sustainable fast fashion. The oxymoron is built into the model. You cannot make disposable clothing sustainably.",
+        "source": "Fashion Revolution annual Transparency Index"
+      },
+      {
+        "type": "list",
+        "title": "Spotting greenwashing in fashion:",
+        "items": [
+          "Vague terms like 'eco', 'green', 'conscious', or 'sustainable collection' without specific claims",
+          "Small sustainable ranges used to market an otherwise unchanged fast-fashion operation",
+          "Carbon offsets cited without absolute emission reduction targets",
+          "Certifications not independently verified (look for B Corp, GOTS, Fair Trade, bluesign)",
+          "Recyclable packaging on non-recyclable products",
+          "No supply chain transparency — no published supplier list"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The Secondhand Revolution"
+      },
+      {
+        "type": "p",
+        "content": "The global secondhand clothing market reached $197 billion in 2023 and is projected to surpass fast fashion in total market value by 2030. Platforms like Vinted, Depop, ThredUp, and The RealReal have made secondhand mainstream, particularly among Gen Z consumers who are both more sustainability-conscious and more economically constrained."
+      },
+      {
+        "type": "callout",
+        "variant": "tip",
+        "title": "The '30 Wears' Rule",
+        "content": "Before purchasing any garment, ask: will I wear this 30 times? Research by Livia Firth (Eco Age) popularised this heuristic as a proxy for whether a purchase represents genuine value or impulse consumption. Most fast fashion purchases don't survive this question."
+      }
+    ],
+    "keyTakeaways": [
+      "Fashion generates 10% of global carbon emissions — more than aviation and shipping combined",
+      "92 million tonnes of textile waste is generated annually — roughly one rubbish truck per second",
+      "Greenwashing is rampant — 40% of green claims by fashion brands may be misleading",
+      "Supply chain wages are typically 40–70% below a living wage, despite minimum wage compliance",
+      "Secondhand markets are growing faster than fast fashion — and are a direct individual impact lever"
+    ],
+    "challengeQuestionIds": ["q20", "q21", "q22", "q38"]
+  },
+
+  "m10": {
+    "heroImage": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
+    "heroAlt": "Person reviewing financial documents and calculator on desk",
+    "readTime": "7 min read",
+    "forSchools": false,
+    "intro": "Most people are not taught the fundamentals of personal finance in school — and the consequences are measurable: over-indebtedness, inadequate retirement savings, and vulnerability to financial predation. These are teachable, learnable skills. The earlier you apply them, the more powerful the results.",
+    "sections": [
+      {
+        "type": "h2",
+        "text": "Compound Interest: The Eighth Wonder of the World"
+      },
+      {
+        "type": "p",
+        "content": "Compound interest is interest calculated on both the principal and the accumulated interest — meaning your returns generate returns. Over time, this creates exponential growth. Albert Einstein allegedly called it 'the eighth wonder of the world' (the attribution is disputed, but the math is not)."
+      },
+      {
+        "type": "callout",
+        "variant": "info",
+        "title": "The Rule of 72",
+        "content": "To estimate how many years it takes to double your money at a given interest rate, divide 72 by the annual return rate. At 6% returns: 72÷6 = 12 years to double. At 8%: 9 years. At a credit card interest rate of 24%: your debt doubles every 3 years. This rule works in both directions — it illustrates both the power of saving and the danger of debt."
+      },
+      {
+        "type": "stat",
+        "value": "£100/month",
+        "label": "invested at 7% from age 25 becomes ~£264,000 by age 65",
+        "context": "The same investment starting at age 35 yields ~£121,000 — the 10-year delay costs £143,000"
+      },
+      {
+        "type": "h2",
+        "text": "Emergency Fund: The Foundation of Financial Security"
+      },
+      {
+        "type": "p",
+        "content": "An emergency fund is a liquid cash reserve covering 3–6 months of essential expenses, held in an accessible savings account. It exists to prevent financial emergencies from becoming financial catastrophes — a job loss, medical bill, or car repair shouldn't force you into high-interest debt."
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=900&q=80",
+        "alt": "Glass jar with coins labeled 'savings' on wooden desk",
+        "caption": "An emergency fund isn't an investment — it's insurance. Optimising its return is less important than ensuring it exists and is accessible."
+      },
+      {
+        "type": "h2",
+        "text": "Debt: When It's Useful and When It's Destructive"
+      },
+      {
+        "type": "p",
+        "content": "Not all debt is equal. Mortgage debt used to acquire an appreciating asset at a low interest rate is structurally different from high-interest consumer debt used to purchase depreciating goods. The danger zone: carrying a credit card balance at 20–30% APR while simultaneously maintaining savings at 4–5%. The net effect is guaranteed loss."
+      },
+      {
+        "type": "list",
+        "title": "Debt priority framework:",
+        "items": [
+          "First: Eliminate all high-interest debt (>8% APR) — its guaranteed return exceeds most investments",
+          "Second: Build your emergency fund to 3 months of expenses",
+          "Third: Contribute enough to employer pension match — it's a 100% instant return",
+          "Fourth: Max out tax-advantaged accounts (ISA, 401k, SIPP) before taxable investing",
+          "Fifth: Invest long-term in diversified, low-cost index funds"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Investment Basics: Why Index Funds Usually Win"
+      },
+      {
+        "type": "p",
+        "content": "An index fund passively tracks a market index — the S&P 500, global equity market, etc. — rather than attempting to select individual outperforming stocks. Decades of academic research and real-world performance data show that over long periods, actively managed funds underperform equivalent index funds, primarily due to fees."
+      },
+      {
+        "type": "quote",
+        "text": "Don't look for the needle in the haystack. Just buy the haystack.",
+        "source": "John C. Bogle, founder of Vanguard and creator of the first index fund"
+      },
+      {
+        "type": "callout",
+        "variant": "warning",
+        "title": "The 1% Fee Illusion",
+        "content": "A 1% annual management fee seems trivial. On a £100,000 portfolio over 30 years at 7% gross return, that 1% fee costs approximately £80,000 in foregone returns — nearly doubling the amount paid in fees versus a 0.1% index fund equivalent. Fees compound just as powerfully as returns, in the wrong direction."
+      }
+    ],
+    "keyTakeaways": [
+      "Compound interest is exponential — starting 10 years earlier roughly doubles the outcome",
+      "Emergency fund first — it prevents financial shocks from cascading into debt spirals",
+      "High-interest debt at 20%+ APR must be eliminated before investing — the math demands it",
+      "Index funds outperform most active funds over 15+ year periods — fees are the dominant variable",
+      "The Rule of 72 is a simple mental model for understanding both the power of saving and the danger of debt"
+    ],
+    "challengeQuestionIds": ["q23"]
+  },
+
+  "m11": {
+    "heroImage": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
+    "heroAlt": "Person sitting peacefully in nature practicing mindfulness",
+    "readTime": "6 min read",
+    "forSchools": true,
+    "schoolsNote": "Strongly recommended for PSHE, wellbeing, and social-emotional learning programmes in secondary schools. Evidence-based content suitable for student mental health education.",
+    "intro": "Mental health literacy — understanding how psychological distress manifests, how to support others, and how to maintain your own wellbeing — is as important as physical health literacy. Yet most people receive no formal education in it. The consequences are measured in years of untreated suffering and preventable harm.",
+    "sections": [
+      {
+        "type": "h2",
+        "text": "What Mental Health Actually Is"
+      },
+      {
+        "type": "p",
+        "content": "Mental health is not the absence of mental illness — it is a state of wellbeing in which a person can cope with the normal stresses of life, work productively, contribute to their community, and realise their potential. It exists on a continuum, fluctuates over time, and is influenced by biology, life experience, and social environment."
+      },
+      {
+        "type": "stat",
+        "value": "1 in 4",
+        "label": "people experience a mental health problem each year",
+        "context": "Source: WHO — mental illness is the leading cause of disability worldwide"
+      },
+      {
+        "type": "h2",
+        "text": "The Biology of Stress"
+      },
+      {
+        "type": "p",
+        "content": "The stress response is a physiological system designed for short-term threats: cortisol and adrenaline mobilise energy, suppress non-urgent functions (digestion, immune system, reproduction), and sharpen focus. This is adaptive for acute danger. It is harmful when chronically activated by psychological threats — work pressure, relationship conflict, financial anxiety."
+      },
+      {
+        "type": "callout",
+        "variant": "info",
+        "title": "Why Chronic Stress is Different",
+        "content": "Chronic stress keeps cortisol persistently elevated, which progressively impairs memory (hippocampal atrophy), immune function (increased illness susceptibility), cardiovascular health (increased blood pressure), and emotional regulation. The system designed to protect you becomes the thing harming you. This is the physiological basis of burnout."
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&q=80",
+        "alt": "Person holding a journal and writing in a peaceful outdoor setting",
+        "caption": "Journalling has significant evidence supporting its effectiveness for emotional regulation and reducing the cognitive load of rumination."
+      },
+      {
+        "type": "h2",
+        "text": "Supporting Someone in Distress"
+      },
+      {
+        "type": "p",
+        "content": "The most common response to disclosure of mental health struggles — 'just stay positive', 'others have it worse', or immediate unsolicited advice — is consistently rated by people in distress as unhelpful and sometimes damaging. Active listening, validation, and presence are what people in distress most commonly need."
+      },
+      {
+        "type": "list",
+        "title": "What actually helps when someone is struggling:",
+        "items": [
+          "Listen without immediately trying to fix — presence matters more than solutions",
+          "Validate their experience without endorsing harmful beliefs ('That sounds incredibly difficult')",
+          "Ask what kind of support they want before offering advice",
+          "Avoid minimising language ('You'll be fine', 'It could be worse')",
+          "Stay connected — continued contact after the initial conversation significantly aids recovery",
+          "Gently encourage professional support without issuing ultimatums"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "People don't need advice. They need to be heard. Once they feel truly heard — truly understood — they often discover their own solutions.",
+        "source": "Carl Rogers, founder of person-centred therapy"
+      },
+      {
+        "type": "h2",
+        "text": "Digital Wellbeing: Social Media and Mental Health"
+      },
+      {
+        "type": "p",
+        "content": "The relationship between social media use and mental health is complex and contested. Passive consumption (scrolling, comparing) is consistently associated with worse outcomes, particularly for adolescents. Active engagement (connecting, creating) shows neutral to positive effects. The platform design matters: infinite scroll, notifications, and algorithmic amplification of emotionally activating content are not neutral choices."
+      },
+      {
+        "type": "callout",
+        "variant": "tip",
+        "title": "Practical Digital Wellbeing Interventions",
+        "content": "Studies show that specific, structural interventions work better than willpower-based approaches: remove apps from the home screen (adds friction), disable notification badges, set Screen Time limits with a lock, use greyscale mode (reduces visual appeal), and charge your phone outside the bedroom. These reduce passive consumption with minimal conscious effort."
+      }
+    ],
+    "keyTakeaways": [
+      "Mental health is a continuum — not just the presence or absence of diagnosed illness",
+      "Chronic stress physically damages the brain and body — it is not just a feeling",
+      "Active listening and validation outperform advice as support tools — ask before advising",
+      "Passive social media consumption (scrolling and comparing) is linked to worse mental health outcomes",
+      "Structural phone interventions work better than willpower — design your environment, not your discipline"
+    ],
+    "challengeQuestionIds": ["q24", "q25", "q26", "q35"]
+  },
+
+  "m12": {
+    "heroImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80",
+    "heroAlt": "Business professionals in a modern office meeting room",
+    "readTime": "7 min read",
+    "forSchools": false,
+    "intro": "Business literacy is not just for entrepreneurs. Understanding how organisations create and capture value, how contracts work, how companies can fail, and how market dynamics operate makes you a more effective employee, negotiator, and consumer — regardless of whether you ever run a company.",
+    "sections": [
+      {
+        "type": "h2",
+        "text": "What Is Value Creation?"
+      },
+      {
+        "type": "p",
+        "content": "A business creates value by transforming inputs (materials, labour, capital, ideas) into outputs that people want more than the inputs cost to produce. The difference is the value created. A business captures value by retaining a portion of what's created as profit. The fundamental challenge: creating enough value that customers pay, while capturing enough that the business can sustain and grow."
+      },
+      {
+        "type": "callout",
+        "variant": "info",
+        "title": "Revenue vs Profit: The Crucial Distinction",
+        "content": "Revenue is the total income from sales. Profit is what remains after all costs. Many businesses with impressive revenue figures operate at a loss — Amazon itself did so for years, deliberately. 'Revenue' in a headline tells you scale; 'profit' (particularly net profit and free cash flow) tells you whether the business is genuinely viable."
+      },
+      {
+        "type": "h2",
+        "text": "The Three Types of Business Structure"
+      },
+      {
+        "type": "p",
+        "content": "Business legal structures determine liability, taxation, and governance. The three most common in most jurisdictions are: sole trader/proprietorship (you and the business are legally identical — unlimited personal liability), partnership (shared ownership and liability), and limited company/LLC (the company is a separate legal entity — your personal assets are protected from business debts in most circumstances)."
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=900&q=80",
+        "alt": "Two people shaking hands in a formal business setting",
+        "caption": "Contracts create legally enforceable obligations — verbal agreements can be binding, but written contracts provide clarity and evidence."
+      },
+      {
+        "type": "h2",
+        "text": "Contract Basics Everyone Should Know"
+      },
+      {
+        "type": "p",
+        "content": "A legally binding contract requires three elements: offer (I will do X), acceptance (I agree to that), and consideration (something of value exchanged — money, services, a promise). Verbal contracts are generally legally binding, but difficult to enforce without evidence. Written contracts exist to provide clarity and evidence, not to create the contract itself."
+      },
+      {
+        "type": "list",
+        "title": "What to look for before signing any contract:",
+        "items": [
+          "Termination clauses — how and when can either party end the agreement?",
+          "Payment terms — when, how much, and what happens on late payment?",
+          "Intellectual property ownership — who owns work created during the engagement?",
+          "Dispute resolution — courts, arbitration, or mediation? Which jurisdiction?",
+          "Liability caps — is there a limit on what either party can be sued for?",
+          "Renewal terms — does the contract auto-renew, and with what notice period?"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Most business problems are not business problems. They are communication problems. The contract is where you find out if you and your counterparty are having the same conversation.",
+        "source": "Legal proverb common in commercial law"
+      },
+      {
+        "type": "h2",
+        "text": "Why Businesses Fail"
+      },
+      {
+        "type": "p",
+        "content": "According to the Office for National Statistics, approximately 60% of UK businesses fail within five years. The most commonly cited causes are: cash flow problems (profitable companies can go bankrupt if they run out of cash), premature scaling (growing faster than operations can support), lack of product-market fit (building something the market doesn't want), and poor leadership and governance."
+      },
+      {
+        "type": "stat",
+        "value": "82%",
+        "label": "of business failures are caused by cash flow problems",
+        "context": "Source: US Bank Study — profitability and cash flow are not the same; many profitable businesses fail due to timing mismatches"
+      },
+      {
+        "type": "callout",
+        "variant": "warning",
+        "title": "Cash Flow vs Profit",
+        "content": "A business can be profitable on paper and bankrupt in practice. If you invoice £50,000 in January but clients pay in April, while your rent and salaries are due in February, you may be unable to operate despite being technically profitable. Cash flow management — understanding when money flows in and out — is the most commonly underestimated operational skill in small business."
+      }
+    ],
+    "keyTakeaways": [
+      "Revenue measures scale; profit (and cash flow) measures viability — don't confuse them",
+      "Limited companies separate your personal assets from business debts — structure matters",
+      "Contracts require offer, acceptance, and consideration — verbal contracts are binding but hard to prove",
+      "Most business failures are cash flow failures, not profit failures — timing of money matters",
+      "Before signing anything, understand termination, IP ownership, and dispute resolution clauses"
+    ],
+    "challengeQuestionIds": ["q27", "q28", "q29", "q37"]
+  },
+
+  "m16": {
+    "heroImage": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80",
+    "heroAlt": "Dramatic aerial view of cracked dry earth and parched landscape",
+    "readTime": "11 min read",
+    "forSchools": true,
+    "schoolsNote": "Featured in secondary and university curricula across East Africa. Aligned with KCSE Geography, Biology, and Global Perspectives syllabi. Contact us for classroom-ready versions.",
+    "intro": "The climate crisis is not a future problem. In East Africa, it is reshaping livelihoods, food systems, and political stability right now. Understanding what is actually happening — the science, the justice issues, and the specific story for Africa — is no longer optional knowledge. It is essential context for anyone navigating the 21st century.",
+    "sections": [
+      {
+        "type": "h2",
+        "text": "Where We Are: The Science in Plain Terms"
+      },
+      {
+        "type": "p",
+        "content": "The Earth's average surface temperature has risen approximately 1.2°C above pre-industrial levels (1850–1900 baseline). In 2024, for the first time in recorded history, global average temperatures exceeded 1.5°C above that baseline across a full calendar year — crossing the most ambitious threshold set by the Paris Agreement."
+      },
+      {
+        "type": "stat",
+        "value": "1.5°C",
+        "label": "crossed for the first time in 2024 — the Paris Agreement's most ambitious target",
+        "context": "Source: Copernicus Climate Change Service / WMO 2024 Annual Report"
+      },
+      {
+        "type": "p",
+        "content": "This warming is unambiguously caused by human activity — primarily the burning of fossil fuels, deforestation, and industrial agriculture — which have increased atmospheric CO₂ from 280 parts per million (pre-industrial) to over 425 ppm today. The IPCC's Sixth Assessment Report (2023) states with 'unequivocal' certainty that human influence is the dominant cause of warming since the mid-20th century."
+      },
+      {
+        "type": "callout",
+        "variant": "info",
+        "title": "What Does 1.5°C Actually Mean?",
+        "content": "1.5°C is the difference between difficult and catastrophic. At 1.5°C: 14% of the global population faces extreme heat events at least once every 5 years. Coral reefs decline by 70–90%. Arctic summers are ice-free once per century. At 2°C: those numbers become 37%, near-total coral loss, and ice-free Arctic summers every 10 years. Half a degree carries enormous human consequence."
+      },
+      {
+        "type": "h2",
+        "text": "The Africa Paradox: Least Responsible, Most Affected"
+      },
+      {
+        "type": "p",
+        "content": "Africa as a continent contributes approximately 3–4% of global cumulative greenhouse gas emissions. The United States alone has contributed roughly 25% of all historical emissions. Yet 7 of the 10 countries most vulnerable to climate change are in Africa. This is the central injustice of the climate crisis — a profound asymmetry between culpability and consequence."
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=900&q=80",
+        "alt": "Dry cracked earth in an African landscape with distant sky",
+        "caption": "Prolonged drought has displaced over 700,000 people across the Horn of Africa in the 2020s — a region responsible for a fraction of global emissions."
+      },
+      {
+        "type": "stat",
+        "value": "3–4%",
+        "label": "of global emissions from Africa — yet home to 7 of the 10 most climate-vulnerable countries",
+        "context": "Source: Climate Vulnerability Index / IPCC AR6 Regional Assessment"
+      },
+      {
+        "type": "p",
+        "content": "In East Africa specifically, the impacts are already measurable and severe. Between 2021 and 2023, the Horn of Africa experienced five consecutive failed rainy seasons — the worst drought in 40 years. Over 22 million people faced acute food insecurity. In 2024, extreme flooding in Kenya killed over 200 people and displaced more than 200,000. Climate change did not cause these events, but it made them more frequent and more severe."
+      },
+      {
+        "type": "h2",
+        "text": "Tipping Points: The Point of No Return"
+      },
+      {
+        "type": "p",
+        "content": "Climate tipping points are thresholds in Earth's systems where a relatively small change triggers a larger, self-reinforcing shift — often irreversible on human timescales. Crossing a tipping point means the system changes even if we stop emitting immediately. This is what makes them so alarming."
+      },
+      {
+        "type": "callout",
+        "variant": "danger",
+        "title": "9 Major Climate Tipping Points Scientists Are Watching",
+        "content": "West Antarctic Ice Sheet collapse (triggers 3–5m sea level rise) · Greenland Ice Sheet loss · Amazon rainforest dieback · Permafrost thaw and methane release · Atlantic Ocean circulation (AMOC) disruption · Tropical coral reef die-off · Boreal forest loss · East Antarctic ice loss · Monsoon destabilisation in India/Africa. Scientists now believe several of these may already be approaching or crossing their thresholds."
+      },
+      {
+        "type": "p",
+        "content": "The permafrost feedback loop deserves particular attention. Permafrost — permanently frozen ground across Siberia, Canada, and Alaska — contains approximately twice the carbon currently in the atmosphere, accumulated over thousands of years. As warming thaws it, methane and CO₂ are released, accelerating warming, which thaws more permafrost, releasing more carbon. This is a self-reinforcing loop that, once triggered, continues regardless of human emission reductions."
+      },
+      {
+        "type": "quote",
+        "text": "We are at a crossroads. The decisions made now and in the next few years will have impacts lasting thousands of years. We have the tools to fix this. What we lack is the political will to do it at the speed the science demands.",
+        "source": "IPCC Chair Hoesung Lee — AR6 Synthesis Report, 2023"
+      },
+      {
+        "type": "h2",
+        "text": "Kenya's Climate Story: Extraordinary Paradox"
+      },
+      {
+        "type": "p",
+        "content": "Kenya presents one of the most striking contradictions in global climate discourse. On one hand, Kenya generates approximately 90% of its electricity from renewable sources — primarily geothermal power from the East African Rift Valley (the world's third-largest geothermal field) and hydropower. Kenya's electricity grid is one of the cleanest in the world — cleaner than Germany, France, or the United States."
+      },
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=900&q=80",
+        "alt": "Wind turbines at sunset with orange sky in background",
+        "caption": "Kenya's geothermal capacity at Olkaria is among the largest in the world — providing clean, reliable baseload power that most countries cannot match."
+      },
+      {
+        "type": "p",
+        "content": "On the other hand, Kenya is among the countries most severely affected by climate change — facing intensifying droughts in arid and semi-arid regions (which cover 80% of Kenya's land mass), increasingly erratic long and short rains, extreme flooding events in urban areas, and sea level rise threatening the coast from Mombasa to Malindi."
+      },
+      {
+        "type": "callout",
+        "variant": "info",
+        "title": "Kenya's Climate Finance Position",
+        "content": "Kenya is one of the world's most active recipients of climate finance and a vocal advocate for Loss and Damage compensation at COP negotiations. Kenya's 2022 Climate Change Amendment Act and 2023 National Climate Change Action Plan set legally binding emission targets and establish accountability mechanisms. At COP27, Kenya's delegation helped secure the historic Loss and Damage fund."
+      },
+      {
+        "type": "h2",
+        "text": "The Congo Basin: Africa's Green Lung"
+      },
+      {
+        "type": "p",
+        "content": "Spanning 3.3 million km² across the Democratic Republic of Congo, Congo-Brazzaville, Cameroon, Central African Republic, Gabon, and Equatorial Guinea, the Congo Basin rainforest is the world's second-largest tropical forest — and critically, it remains a net carbon sink, absorbing approximately 1.1 billion tonnes of CO₂ per year."
+      },
+      {
+        "type": "p",
+        "content": "This is not guaranteed. Research published in Nature (2020) found that the Amazon had already flipped from carbon sink to carbon source in the eastern Brazilian regions most heavily deforested. The Congo Basin faces the same trajectory if deforestation — driven by charcoal production, subsistence agriculture, and conflict — continues at current rates."
+      },
+      {
+        "type": "callout",
+        "variant": "warning",
+        "title": "Congo Basin Under Pressure",
+        "content": "Unlike Amazon deforestation, which is largely driven by industrial agriculture, Congo Basin forest loss is primarily driven by small-scale subsistence farming and charcoal for cooking fuel by some of the world's poorest communities. Climate solutions here require development finance, clean cooking alternatives, and land tenure rights — not just conservation easements. The injustice is multilayered."
+      },
+      {
+        "type": "h2",
+        "text": "The Loss and Damage Breakthrough"
+      },
+      {
+        "type": "p",
+        "content": "At COP27 in Sharm el-Sheikh, Egypt (2022), after decades of resistance from wealthy nations, the world agreed to establish a Loss and Damage fund — providing financial support to developing nations for climate impacts they cannot adapt to: permanent land loss from sea level rise, ecosystem destruction, displacement, cultural loss."
+      },
+      {
+        "type": "p",
+        "content": "The principle is compelling: if you caused the damage, you bear responsibility for the harm. Historical emitters — the US, EU, UK, Australia — accepted in principle that developing nations are owed compensation for suffering from warming they did not cause. The gap between principle and reality: the fund is dramatically underfunded relative to estimated needs of $400 billion per year by 2030."
+      },
+      {
+        "type": "h2",
+        "text": "Mitigation vs Adaptation: Both Are Now Necessary"
+      },
+      {
+        "type": "p",
+        "content": "Mitigation means reducing the causes of climate change — cutting greenhouse gas emissions through clean energy transition, forest protection, and dietary shifts. Adaptation means adjusting to climate impacts that are now inevitable regardless of what we do: drought-resistant crops, early warning systems for extreme weather, managed coastal retreat, heat-resilient cities."
+      },
+      {
+        "type": "list",
+        "title": "High-impact individual and community actions — ranked by evidence:",
+        "items": [
+          "Vote for climate-committed representatives — policy change is 10–100× more impactful than personal lifestyle change alone",
+          "Reduce beef consumption — the single highest-impact dietary action (66× lower emissions per kg protein vs legumes)",
+          "Avoid unnecessary flying — one return transatlantic flight = months of other lifestyle emissions combined",
+          "Switch energy supplier to renewable — or push for it institutionally at your workplace or school",
+          "Support community tree-planting and urban green infrastructure",
+          "Engage in climate advocacy — contact elected representatives, join civic climate organisations"
+        ]
+      },
+      {
+        "type": "callout",
+        "variant": "tip",
+        "title": "The Political Action Multiplier",
+        "content": "Research by Wynes and Nicholas (2017) found that 'having one fewer child' is often cited as the top individual climate action. But this misses the point: the highest-leverage action is political engagement. A single policy — carbon pricing, clean energy mandates, deforestation bans — can multiply the effect of millions of individual choices simultaneously. Your vote is a climate action."
+      },
+      {
+        "type": "h2",
+        "text": "What Gives Reason for Hope"
+      },
+      {
+        "type": "p",
+        "content": "The transition is genuinely happening. Solar and wind are now the cheapest sources of new electricity generation in most of the world — cheaper than fossil fuels without subsidies. Electric vehicle adoption is accelerating faster than almost any technology transition in history. The cost of battery storage has fallen 97% since 1991. The economic case for the clean transition is no longer a sacrifice — it is increasingly an opportunity."
+      },
+      {
+        "type": "p",
+        "content": "For Africa specifically, the opportunity is extraordinary. Africa has 60% of the world's best solar resources, vast wind potential, and is positioned to leapfrog fossil fuel dependency the same way it leapfrogged landline telephony for mobile. The challenge is not technological — it is financial. Mobilising the $250 billion per year in clean energy investment that Africa needs requires the global financial system to treat climate as the security issue it is."
+      },
+      {
+        "type": "quote",
+        "text": "Africa did not cause the climate crisis. But Africa can lead the world's response to it — if the resources follow the ambition.",
+        "source": "Dr. Vera Songwe, Former UN Economic Commission for Africa — COP26, Glasgow 2021"
+      }
+    ],
+    "keyTakeaways": [
+      "2024 crossed 1.5°C for the first time — the Paris Agreement's most ambitious threshold is already breached",
+      "Africa contributes 3–4% of global emissions but bears 7 of the 10 most severe climate vulnerabilities — a profound injustice",
+      "Climate tipping points are irreversible once crossed — permafrost, Amazon, Antarctic ice sheet are already under threat",
+      "Kenya generates ~90% of its electricity from renewables — a global leader hiding in plain sight",
+      "The Congo Basin absorbs 1.1 billion tonnes of CO₂ annually — its protection is a global climate priority",
+      "Loss and Damage fund established at COP27 — the principle that polluters pay for harm is now international law in embryo",
+      "Political engagement is the highest-leverage climate action — policy change multiplies millions of individual actions simultaneously"
+    ],
+    "challengeQuestionIds": ["q54", "q55", "q56", "q57", "q58", "q59", "q60", "q61"]
+  }
+}

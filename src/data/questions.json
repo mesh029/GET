@@ -1,0 +1,1041 @@
+[
+  {
+    "id": "q1",
+    "category": "cyber",
+    "context": "social-login",
+    "difficulty": "beginner",
+    "tags": ["phishing", "email", "social-engineering"],
+    "question": "You receive an email asking you to verify your social media account by clicking a link. What should you do?",
+    "options": [
+      "Click the link immediately to secure your account",
+      "Check the sender's email address and go directly to the official website instead",
+      "Share the email with friends to warn them"
+    ],
+    "correct": 1,
+    "explanation": "Phishing emails mimic official sources. Always navigate directly to official websites instead of clicking email links. Checking the sender address is the first line of defense.",
+    "relatedModuleId": "m1",
+    "missRate": 62
+  },
+  {
+    "id": "q2",
+    "category": "cyber",
+    "context": "banking",
+    "difficulty": "beginner",
+    "tags": ["fraud", "banking", "card-security"],
+    "question": "Your bank app shows an unusual transaction you don't recognize. What is the safest first step?",
+    "options": [
+      "Ignore it — it might resolve itself",
+      "Call the number on the back of your card and freeze the card immediately",
+      "Post about it on social media to warn others"
+    ],
+    "correct": 1,
+    "explanation": "Immediate action limits financial damage. Contacting your bank through official channels and freezing your card is the correct response. Never delay on suspicious transactions.",
+    "relatedModuleId": "m2",
+    "missRate": 28
+  },
+  {
+    "id": "q3",
+    "category": "cyber",
+    "context": "hospital",
+    "difficulty": "intermediate",
+    "tags": ["hipaa", "healthcare", "credentials"],
+    "question": "A colleague shares their hospital system login credentials with you so you can help them finish work. What should you do?",
+    "options": [
+      "Use the credentials — it's just for this once",
+      "Decline and remind them that shared credentials violate patient privacy law",
+      "Accept but delete the credentials afterward"
+    ],
+    "correct": 1,
+    "explanation": "Sharing credentials in healthcare settings violates HIPAA and similar regulations. Each user must have unique access. Patient data protection depends on individual accountability.",
+    "relatedModuleId": "m3",
+    "missRate": 41
+  },
+  {
+    "id": "q4",
+    "category": "cyber",
+    "context": "social-login",
+    "difficulty": "beginner",
+    "tags": ["permissions", "privacy", "apps"],
+    "question": "An app requests permission to access your contacts, location, and microphone for a simple photo editing feature. What's the right move?",
+    "options": [
+      "Grant all permissions — the app needs them",
+      "Only grant the camera permission relevant to photo editing",
+      "Uninstall the app immediately without reviewing"
+    ],
+    "correct": 1,
+    "explanation": "Apps should only receive permissions necessary for their function. Over-permissioning is a common data harvesting tactic. Review each permission critically.",
+    "relatedModuleId": "m1",
+    "missRate": 47
+  },
+  {
+    "id": "q5",
+    "category": "environment",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["carbon", "diet", "climate"],
+    "question": "Which daily habit has the greatest positive impact on reducing your personal carbon footprint?",
+    "options": [
+      "Switching off lights when leaving a room",
+      "Reducing meat consumption, especially beef",
+      "Using paper bags instead of plastic"
+    ],
+    "correct": 1,
+    "explanation": "Animal agriculture — especially beef — accounts for about 14.5% of global greenhouse gas emissions. Dietary changes have a significantly larger impact than most individual habits.",
+    "relatedModuleId": "m4",
+    "missRate": 55
+  },
+  {
+    "id": "q6",
+    "category": "environment",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["carbon-neutral", "offsets", "climate"],
+    "question": "What does 'carbon neutral' mean for a company or product?",
+    "options": [
+      "The company produces zero carbon emissions",
+      "The company offsets its carbon emissions to achieve net-zero output",
+      "The company only uses renewable energy"
+    ],
+    "correct": 1,
+    "explanation": "Carbon neutral means net-zero: emissions are balanced by equivalent carbon removal or offsets. It does not mean zero emissions — production still exists but is compensated.",
+    "relatedModuleId": "m4",
+    "missRate": 60
+  },
+  {
+    "id": "q7",
+    "category": "cyber",
+    "context": "banking",
+    "difficulty": "intermediate",
+    "tags": ["vpn", "public-wifi", "encryption"],
+    "question": "You're using public Wi-Fi at a coffee shop to check your bank balance. What precaution is most important?",
+    "options": [
+      "Use a VPN to encrypt your connection",
+      "Sit near the router for better signal",
+      "Log out of social media first"
+    ],
+    "correct": 0,
+    "explanation": "Public Wi-Fi is unencrypted and vulnerable to man-in-the-middle attacks. A VPN encrypts your traffic, protecting sensitive banking sessions from eavesdropping.",
+    "relatedModuleId": "m2",
+    "missRate": 38
+  },
+  {
+    "id": "q8",
+    "category": "environment",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["e-waste", "recycling", "electronics"],
+    "question": "Electronic waste (e-waste) is one of the fastest growing waste streams. What is the most responsible way to dispose of an old smartphone?",
+    "options": [
+      "Throw it in the regular trash",
+      "Take it to a certified e-waste recycling center or manufacturer take-back program",
+      "Keep it in a drawer indefinitely"
+    ],
+    "correct": 1,
+    "explanation": "E-waste contains toxic materials like lead and mercury. Certified recycling programs safely recover materials and prevent environmental contamination.",
+    "relatedModuleId": "m5",
+    "missRate": 33
+  },
+  {
+    "id": "q9",
+    "category": "cyber",
+    "context": "hospital",
+    "difficulty": "advanced",
+    "tags": ["healthcare", "data-breach", "patient-rights"],
+    "question": "A patient asks you to send their medical records to a personal email address. What is the correct procedure?",
+    "options": [
+      "Send immediately — the patient has a right to their data",
+      "Verify identity through official channels and use encrypted transfer methods",
+      "Refuse — patient data cannot be shared under any circumstance"
+    ],
+    "correct": 1,
+    "explanation": "Patients have the right to their records, but secure identity verification and encrypted transmission are required. Sending to unverified email without encryption is a data breach risk.",
+    "relatedModuleId": "m3",
+    "missRate": 52
+  },
+  {
+    "id": "q10",
+    "category": "environment",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["ocean-plastic", "pollution", "waste-management"],
+    "question": "What is the primary cause of ocean plastic pollution?",
+    "options": [
+      "Plastic debris blown from ships",
+      "Mismanaged land-based plastic waste entering waterways",
+      "Underwater plastic manufacturing facilities"
+    ],
+    "correct": 1,
+    "explanation": "About 80% of ocean plastic originates from land. Poor waste management allows plastic to enter rivers and eventually oceans. Improving waste infrastructure on land is the most effective intervention.",
+    "relatedModuleId": "m5",
+    "missRate": 45
+  },
+  {
+    "id": "q11",
+    "category": "law",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["gdpr", "data-protection", "privacy"],
+    "question": "Under GDPR, a user asks a company to delete all their personal data. The company must comply within:",
+    "options": [
+      "30 days, with no exceptions",
+      "1 calendar month, with possible extensions for complex requests",
+      "6 months, provided they send a confirmation email"
+    ],
+    "correct": 1,
+    "explanation": "GDPR Article 17 gives data subjects the 'right to erasure'. Companies must respond within one month, extendable by two more months for complex cases. Non-compliance carries fines up to €20M or 4% of global turnover.",
+    "relatedModuleId": "m6",
+    "missRate": 68
+  },
+  {
+    "id": "q12",
+    "category": "law",
+    "context": "social-login",
+    "difficulty": "beginner",
+    "tags": ["copyright", "social-media", "content"],
+    "question": "You share a viral meme on your business page that includes a copyrighted photograph. What is your legal risk?",
+    "options": [
+      "None — sharing is not the same as copying",
+      "Civil liability for copyright infringement, even without commercial intent",
+      "Only liable if you added your own text to the image"
+    ],
+    "correct": 1,
+    "explanation": "Sharing copyrighted content on a business page constitutes copyright infringement regardless of intent. The DMCA and equivalent laws hold re-publishers liable. Always use licensed or royalty-free images.",
+    "relatedModuleId": "m7",
+    "missRate": 71
+  },
+  {
+    "id": "q13",
+    "category": "law",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["defamation", "online-speech", "social-media"],
+    "question": "You post a false, damaging statement about a person on social media without knowing it's false. Are you liable?",
+    "options": [
+      "No — you didn't know it was false, so you're protected",
+      "Yes — defamation can be negligent, not just intentional",
+      "Only if the person is a public figure"
+    ],
+    "correct": 1,
+    "explanation": "Defamation includes negligent misrepresentation — publishing false facts you should have verified. The standard differs for public vs private figures, but private individuals enjoy broader protection.",
+    "relatedModuleId": "m7",
+    "missRate": 74
+  },
+  {
+    "id": "q14",
+    "category": "law",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["influencer", "advertising", "ftc"],
+    "question": "A brand pays an influencer to promote their product. The influencer must:",
+    "options": [
+      "Disclose the sponsorship only if asked",
+      "Clearly disclose the paid relationship in every post",
+      "Add '#ad' only to Instagram posts, not other platforms"
+    ],
+    "correct": 1,
+    "explanation": "FTC guidelines and similar international rules require clear disclosure of paid partnerships in every piece of sponsored content, across all platforms. '#Ad' or 'Sponsored' must be prominent, not buried in hashtags.",
+    "relatedModuleId": "m7",
+    "missRate": 59
+  },
+  {
+    "id": "q15",
+    "category": "law",
+    "context": "general",
+    "difficulty": "advanced",
+    "tags": ["terms-of-service", "contracts", "digital"],
+    "question": "When you click 'I agree' on a Terms of Service, what have you legally done?",
+    "options": [
+      "Nothing binding — no one reads them, courts understand this",
+      "Entered a legally binding contract, subject to jurisdiction and reasonableness limits",
+      "Only agreed to marketing emails"
+    ],
+    "correct": 1,
+    "explanation": "Clicking 'I agree' creates a valid clickwrap contract. Courts generally uphold these agreements, though unconscionable or buried clauses may be challenged. You are legally bound by what you agree to.",
+    "relatedModuleId": "m6",
+    "missRate": 66
+  },
+  {
+    "id": "q16",
+    "category": "space",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["solar-system", "planets", "astronomy"],
+    "question": "Why does the Moon always show the same face to Earth?",
+    "options": [
+      "The Moon does not rotate at all",
+      "The Moon's rotation period equals its orbital period — a phenomenon called tidal locking",
+      "Earth's gravity prevents the Moon from spinning"
+    ],
+    "correct": 1,
+    "explanation": "Tidal locking occurs when a body's rotation period matches its orbital period. Earth's gravitational pull gradually slowed the Moon's rotation over billions of years until they synchronized, which is why we only ever see one hemisphere.",
+    "relatedModuleId": "m8",
+    "missRate": 49
+  },
+  {
+    "id": "q17",
+    "category": "space",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["black-holes", "relativity", "physics"],
+    "question": "What happens to time near a black hole, according to general relativity?",
+    "options": [
+      "Time speeds up due to intense gravity",
+      "Time slows down — a phenomenon called gravitational time dilation",
+      "Time stops permanently at the event horizon for all observers"
+    ],
+    "correct": 1,
+    "explanation": "Einstein's general relativity predicts that stronger gravitational fields curve spacetime more intensely, slowing time. An observer far from a black hole would see someone falling toward it appear to slow and freeze at the event horizon.",
+    "relatedModuleId": "m8",
+    "missRate": 44
+  },
+  {
+    "id": "q18",
+    "category": "space",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["exoplanets", "habitable-zone", "life"],
+    "question": "What is the 'habitable zone' (or Goldilocks zone) around a star?",
+    "options": [
+      "The area where planets have the right size to support life",
+      "The orbital range where liquid water can exist on a planet's surface",
+      "The region shielded from solar radiation by a star's magnetic field"
+    ],
+    "correct": 1,
+    "explanation": "The habitable zone is the orbital region where temperatures allow liquid water — a key ingredient for life as we know it — to exist on a planet's surface. Earth sits perfectly in our Sun's habitable zone.",
+    "relatedModuleId": "m8",
+    "missRate": 38
+  },
+  {
+    "id": "q19",
+    "category": "space",
+    "context": "general",
+    "difficulty": "advanced",
+    "tags": ["dark-matter", "cosmology", "universe"],
+    "question": "What makes up approximately 27% of the universe but cannot be seen directly?",
+    "options": [
+      "Black holes and neutron stars",
+      "Dark matter — detected only through its gravitational effects",
+      "Gas and dust between galaxies"
+    ],
+    "correct": 1,
+    "explanation": "Dark matter is a hypothetical form of matter that doesn't interact with the electromagnetic force but exerts gravitational influence. Its existence is inferred from galaxy rotation curves and gravitational lensing effects.",
+    "relatedModuleId": "m8",
+    "missRate": 41
+  },
+  {
+    "id": "q20",
+    "category": "fashion",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["fast-fashion", "environment", "sustainability"],
+    "question": "The fashion industry is responsible for approximately what percentage of global water pollution?",
+    "options": [
+      "2%",
+      "20%",
+      "50%"
+    ],
+    "correct": 1,
+    "explanation": "The fashion industry accounts for roughly 20% of global industrial water pollution. Textile dyeing processes release toxic chemicals into waterways, and synthetic fabrics shed microplastics with every wash.",
+    "relatedModuleId": "m9",
+    "missRate": 76
+  },
+  {
+    "id": "q21",
+    "category": "fashion",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["fast-fashion", "labor", "ethics"],
+    "question": "What is the primary ethical concern with 'ultra fast fashion' brands producing thousands of new styles per week?",
+    "options": [
+      "They use too many bright colors",
+      "They rely on exploitative labor conditions and unsustainable production speeds",
+      "They copy designs too quickly for copyright law to catch up"
+    ],
+    "correct": 1,
+    "explanation": "Ultra fast fashion's extreme pace is only possible through low-wage labor, often in unsafe conditions. The Rana Plaza collapse in 2013, killing 1,134 garment workers, exposed the human cost of cheap, disposable fashion.",
+    "relatedModuleId": "m9",
+    "missRate": 53
+  },
+  {
+    "id": "q22",
+    "category": "fashion",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["copyright", "design", "fashion-law"],
+    "question": "In most countries, can fashion designs (like a clothing silhouette) be copyrighted?",
+    "options": [
+      "Yes — all creative designs are automatically protected",
+      "Generally no — functional items like clothing have limited copyright protection",
+      "Only if filed with a government registry"
+    ],
+    "correct": 1,
+    "explanation": "Most legal systems consider clothing 'functional' and limit copyright protection to prints, patterns, and artistic elements — not the garment shape itself. This is why design copying is rampant in fashion and often legal.",
+    "relatedModuleId": "m9",
+    "missRate": 82
+  },
+  {
+    "id": "q23",
+    "category": "life-skills",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["personal-finance", "budgeting", "savings"],
+    "question": "The 50/30/20 budgeting rule suggests allocating your after-tax income as:",
+    "options": [
+      "50% savings, 30% needs, 20% wants",
+      "50% needs, 30% wants, 20% savings and debt repayment",
+      "50% investments, 30% housing, 20% everything else"
+    ],
+    "correct": 1,
+    "explanation": "The 50/30/20 rule (popularized by Senator Elizabeth Warren) allocates 50% to needs (rent, food, utilities), 30% to wants (dining, entertainment), and 20% to savings and debt repayment — a practical starting framework.",
+    "relatedModuleId": "m10",
+    "missRate": 57
+  },
+  {
+    "id": "q24",
+    "category": "life-skills",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["mental-health", "stress", "wellbeing"],
+    "question": "Which physiological response helps explain why deep breathing reduces stress and anxiety?",
+    "options": [
+      "It increases blood pressure, making you more alert",
+      "It activates the parasympathetic nervous system, countering the stress response",
+      "It reduces oxygen to the brain, causing a calming effect"
+    ],
+    "correct": 1,
+    "explanation": "Slow, deep breathing stimulates the vagus nerve and activates the parasympathetic ('rest and digest') nervous system, counteracting the sympathetic ('fight or flight') stress response and lowering cortisol levels.",
+    "relatedModuleId": "m11",
+    "missRate": 48
+  },
+  {
+    "id": "q25",
+    "category": "life-skills",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["critical-thinking", "misinformation", "media-literacy"],
+    "question": "You see a dramatic statistic shared widely on social media. What is the most important first verification step?",
+    "options": [
+      "Share it — if many people shared it, it's probably true",
+      "Identify the primary source and check if it's been verified by independent experts",
+      "Google the number to see if any website confirms it"
+    ],
+    "correct": 1,
+    "explanation": "Viral statistics are often miscontextualized or fabricated. Finding the primary source (the original study or institution) and checking independent expert verification prevents amplifying misinformation. 'Many shares' is not evidence of accuracy.",
+    "relatedModuleId": "m11",
+    "missRate": 64
+  },
+  {
+    "id": "q26",
+    "category": "life-skills",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["nutrition", "health", "food-science"],
+    "question": "The glycemic index (GI) of a food measures:",
+    "options": [
+      "The total calorie content per serving",
+      "How quickly a food raises blood glucose levels compared to pure glucose",
+      "The percentage of carbohydrates in the food"
+    ],
+    "correct": 1,
+    "explanation": "The glycemic index ranks foods by how rapidly they raise blood sugar. High-GI foods (white bread, sugary drinks) spike glucose quickly; low-GI foods (legumes, whole grains) cause slower, steadier rises — relevant for energy management and diabetes prevention.",
+    "relatedModuleId": "m11",
+    "missRate": 72
+  },
+  {
+    "id": "q27",
+    "category": "business",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["entrepreneurship", "mvp", "startups"],
+    "question": "What is the primary purpose of building a Minimum Viable Product (MVP)?",
+    "options": [
+      "To create the cheapest possible version of a product",
+      "To test core assumptions with real users using minimum resources",
+      "To satisfy investor requirements before full development"
+    ],
+    "correct": 1,
+    "explanation": "An MVP is about validated learning, not minimal quality. The goal is to test your riskiest assumptions with real users using minimal investment, gathering insights that guide whether to persist, pivot, or abandon a direction.",
+    "relatedModuleId": "m12",
+    "missRate": 43
+  },
+  {
+    "id": "q28",
+    "category": "business",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["marketing", "branding", "consumer-psychology"],
+    "question": "What psychological principle explains why prices like KES 999 feel significantly cheaper than KES 1,000?",
+    "options": [
+      "The anchoring effect",
+      "Left-digit bias — consumers process the leftmost digit most heavily",
+      "The decoy effect"
+    ],
+    "correct": 1,
+    "explanation": "Left-digit bias (also called charm pricing) exploits the fact that we read numbers left-to-right and anchor on the first digit. KES 999 feels closer to KES 900 than KES 1,000, even though the actual difference is just KES 1.",
+    "relatedModuleId": "m12",
+    "missRate": 55
+  },
+  {
+    "id": "q29",
+    "category": "business",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["finance", "equity", "investment"],
+    "question": "When a startup raises money by selling equity, what are founders giving investors in exchange for capital?",
+    "options": [
+      "A promise to repay the investment with interest",
+      "Ownership percentage in the company and associated rights",
+      "A share of monthly revenue until the investment is recovered"
+    ],
+    "correct": 1,
+    "explanation": "Equity financing gives investors partial ownership. Unlike debt (loans), equity has no repayment schedule, but investors share in future value (and losses). They often gain voting rights, board seats, and pro-rata rights in future rounds.",
+    "relatedModuleId": "m12",
+    "missRate": 39
+  },
+  {
+    "id": "q30",
+    "category": "business",
+    "context": "general",
+    "difficulty": "advanced",
+    "tags": ["intellectual-property", "trademark", "business-law"],
+    "question": "A competitor registers a domain name identical to your brand name before you trademark it. This practice is called:",
+    "options": [
+      "Copyright infringement",
+      "Cybersquatting — legally actionable under ICANN's UDRP and the ACPA",
+      "Domain squatting — perfectly legal if done before trademark registration"
+    ],
+    "correct": 1,
+    "explanation": "Cybersquatting — registering domains of known or trademarked brands — is illegal under ICANN's Uniform Domain-Name Dispute-Resolution Policy (UDRP) and the US Anti-Cybersquatting Consumer Protection Act (ACPA). Brands can reclaim domains even without prior registration.",
+    "relatedModuleId": "m6",
+    "missRate": 78
+  },
+  {
+    "id": "q31",
+    "category": "law",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["consumer-rights", "refunds", "ecommerce"],
+    "question": "Under EU consumer law, if you buy a product online and change your mind, you have the right to return it within:",
+    "options": [
+      "7 days, no questions asked",
+      "14 days — the standard cooling-off period for distance contracts",
+      "30 days, if the product is unused"
+    ],
+    "correct": 1,
+    "explanation": "The EU Consumer Rights Directive grants a 14-day cooling-off period for all distance contracts (online, phone, mail order). You can return any item for any reason within this period. Many retailers extend this voluntarily.",
+    "relatedModuleId": "m6",
+    "missRate": 58
+  },
+  {
+    "id": "q32",
+    "category": "law",
+    "context": "social-login",
+    "difficulty": "intermediate",
+    "tags": ["privacy", "surveillance", "data-rights"],
+    "question": "A company's app tracks your location 24/7 in the background. Under most modern privacy laws, they must:",
+    "options": [
+      "Inform you only in the privacy policy fine print",
+      "Obtain explicit, informed consent for background location tracking",
+      "Only inform you if they share data with third parties"
+    ],
+    "correct": 1,
+    "explanation": "Under GDPR, CCPA, and similar frameworks, background location tracking requires explicit, granular consent — separate from general privacy policy acceptance. Users must be clearly informed of what is being collected, why, and for how long.",
+    "relatedModuleId": "m6",
+    "missRate": 63
+  },
+  {
+    "id": "q33",
+    "category": "space",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["light-year", "distance", "universe"],
+    "question": "When astronomers look at a star 100 light-years away, what are they actually seeing?",
+    "options": [
+      "The star as it exists right now",
+      "The star as it was 100 years ago — because light takes 100 years to reach us",
+      "A reflection of the star from interstellar dust"
+    ],
+    "correct": 1,
+    "explanation": "Light travels at roughly 300,000 km/s, but space is vast. A light-year is the distance light travels in one year. Observing a star 100 light-years away means we see light that left it 100 years ago — we're literally looking into the past.",
+    "relatedModuleId": "m8",
+    "missRate": 36
+  },
+  {
+    "id": "q34",
+    "category": "environment",
+    "context": "general",
+    "difficulty": "advanced",
+    "tags": ["biodiversity", "ecosystem", "extinction"],
+    "question": "Scientists estimate we are currently experiencing a mass extinction event. What is its primary driver?",
+    "options": [
+      "Asteroid impacts and volcanic activity",
+      "Habitat destruction, pollution, and climate change driven by human activity",
+      "Natural evolutionary cycles of species replacement"
+    ],
+    "correct": 1,
+    "explanation": "The 6th mass extinction is primarily human-caused. Habitat destruction (deforestation, urbanization), pollution, invasive species, overexploitation, and climate change are driving species loss at 100–1,000× the natural background rate.",
+    "relatedModuleId": "m5",
+    "missRate": 42
+  },
+  {
+    "id": "q35",
+    "category": "life-skills",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["sleep", "health", "productivity"],
+    "question": "What is the most scientifically supported reason why adults should aim for 7–9 hours of sleep?",
+    "options": [
+      "Sleep is primarily for physical muscle recovery",
+      "Sleep is critical for memory consolidation, immune function, and hormonal regulation",
+      "Sleeping more slows aging by reducing cellular activity"
+    ],
+    "correct": 1,
+    "explanation": "During sleep, the brain consolidates memories (transferring short-term to long-term storage), clears metabolic waste (including amyloid proteins linked to Alzheimer's), regulates hormones, and supports immune function. Chronic sleep deprivation is linked to serious health outcomes.",
+    "relatedModuleId": "m11",
+    "missRate": 31
+  },
+  {
+    "id": "q36",
+    "category": "cyber",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["password", "security", "authentication"],
+    "question": "Which password strategy provides the strongest security for a new online account?",
+    "options": [
+      "A memorable phrase like 'MyDog2015!' using personal information",
+      "A randomly generated 16+ character string stored in a password manager",
+      "A complex pattern you can remember, used consistently across accounts"
+    ],
+    "correct": 1,
+    "explanation": "Randomly generated long passwords are cryptographically strongest. Password managers (Bitwarden, 1Password) remember them so you don't have to. Using the same password — even a complex one — across accounts creates a single point of failure.",
+    "relatedModuleId": "m1",
+    "missRate": 44
+  },
+  {
+    "id": "q37",
+    "category": "business",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["branding", "positioning", "marketing"],
+    "question": "What does 'brand positioning' fundamentally define for a company?",
+    "options": [
+      "The visual identity including logo and colors",
+      "How a brand occupies a distinct place in the mind of its target customer",
+      "The price tier the company competes in"
+    ],
+    "correct": 1,
+    "explanation": "Brand positioning (from Ries & Trout) is about occupying a distinct mental space in the customer's mind relative to competitors — not just visuals or price. It answers: 'What do you stand for, for whom, and why you over the alternative?'",
+    "relatedModuleId": "m12",
+    "missRate": 61
+  },
+  {
+    "id": "q38",
+    "category": "fashion",
+    "context": "general",
+    "difficulty": "advanced",
+    "tags": ["greenwashing", "sustainability", "marketing"],
+    "question": "A fashion brand markets a collection as 'eco-friendly' because it uses 5% recycled material. This is an example of:",
+    "options": [
+      "Legitimate sustainability communication",
+      "Greenwashing — misleading environmental claims",
+      "Aspirational branding — common and acceptable in marketing"
+    ],
+    "correct": 1,
+    "explanation": "Greenwashing is the practice of making misleading or exaggerated environmental claims. 5% recycled content does not make a product 'eco-friendly'. EU regulators and the FTC are increasingly prosecuting greenwashing claims as consumer fraud.",
+    "relatedModuleId": "m9",
+    "missRate": 69
+  },
+  {
+    "id": "q39",
+    "category": "law",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["ai-law", "liability", "emerging-law"],
+    "question": "If an AI system makes a harmful decision (e.g., denies a loan unfairly), who is most likely legally liable under emerging AI regulations?",
+    "options": [
+      "The AI itself, as an autonomous agent",
+      "The company that deployed the AI system for its intended use",
+      "The user who interacted with the AI at the time"
+    ],
+    "correct": 1,
+    "explanation": "Under the EU AI Act and similar emerging frameworks, deployers (companies using AI systems) bear primary liability for harm caused by AI decisions in their systems. AI is not a legal person. Liability flows to those who deploy and profit from it.",
+    "relatedModuleId": "m6",
+    "missRate": 73
+  },
+  {
+    "id": "q40",
+    "category": "space",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["space-debris", "satellites", "orbital-risk"],
+    "question": "The Kessler Syndrome describes a catastrophic scenario in space involving:",
+    "options": [
+      "A collision between two large planets disrupting gravitational balance",
+      "A cascade of collisions between space debris making certain orbits permanently unusable",
+      "Solar flares disabling all satellites simultaneously"
+    ],
+    "correct": 1,
+    "explanation": "Proposed by NASA scientist Donald Kessler in 1978, the Kessler Syndrome describes a runaway chain reaction of collisions in low Earth orbit. One collision creates debris that triggers more collisions, potentially making orbital bands like LEO unusable for generations.",
+    "relatedModuleId": "m8",
+    "missRate": 85
+  },
+
+  {
+    "id": "q41",
+    "category": "civic",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["kenya", "elections", "electoral-system"],
+    "question": "Kenya's presidential election requires a winner to receive at least 50%+1 of valid votes AND at least 25% of votes in a minimum of how many counties?",
+    "options": [
+      "15 of 47 counties",
+      "24 of 47 counties",
+      "All 47 counties"
+    ],
+    "correct": 1,
+    "explanation": "Under Kenya's Constitution (Article 138), a presidential candidate must win 50%+1 of all valid votes AND receive at least 25% of votes in at least 24 of Kenya's 47 counties. This dual threshold ensures broad national representation — not just urban concentration. The 2022 election was contested on these grounds at the Supreme Court.",
+    "relatedModuleId": "m13",
+    "missRate": 78
+  },
+  {
+    "id": "q42",
+    "category": "civic",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["gerrymandering", "elections", "fairness"],
+    "question": "What is 'gerrymandering' in the context of elections?",
+    "options": [
+      "A form of vote-rigging where ballots are replaced or destroyed",
+      "Manipulating constituency boundaries to give one political party a structural electoral advantage",
+      "A legal method of proportional voting used in parliamentary systems"
+    ],
+    "correct": 1,
+    "explanation": "Gerrymandering is the manipulation of electoral district boundaries to benefit a specific party or group. It was named after Massachusetts Governor Elbridge Gerry, whose 1812 district was shaped like a salamander. It undermines fair representation by ensuring some votes count more than others structurally.",
+    "relatedModuleId": "m13",
+    "missRate": 65
+  },
+  {
+    "id": "q43",
+    "category": "civic",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["democracy", "separation-of-powers", "governance"],
+    "question": "The 'separation of powers' in a democratic government refers to:",
+    "options": [
+      "Dividing government revenue equally between national and county governments",
+      "The division of government into independent branches — executive, legislative, and judicial — each with distinct powers to prevent concentration of authority",
+      "Requiring equal gender representation across all government departments"
+    ],
+    "correct": 1,
+    "explanation": "The separation of powers, theorised by Montesquieu, divides government into three branches: the executive (implements law), the legislature (makes law), and the judiciary (interprets law). Each branch serves as a check on the others, preventing tyranny through the concentration of power in one entity.",
+    "relatedModuleId": "m13",
+    "missRate": 41
+  },
+  {
+    "id": "q44",
+    "category": "civic",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["voting", "turnout", "democracy"],
+    "question": "Why does low voter turnout undermine democracy even when elections are technically free and fair?",
+    "options": [
+      "Low turnout automatically invalidates an election result under international law",
+      "Low turnout allows smaller, more organised groups to determine outcomes for the majority — concentrating electoral power among the most motivated rather than the most representative",
+      "It reduces government tax revenue because registration fees are not collected"
+    ],
+    "correct": 1,
+    "explanation": "When voter turnout is low, election outcomes reflect the preferences of a motivated minority rather than the broader population. Well-funded, highly organised groups — whether political parties, lobby groups, or ideological movements — consistently outperform apathetic majorities. Every abstention amplifies other votes.",
+    "relatedModuleId": "m13",
+    "missRate": 55
+  },
+  {
+    "id": "q45",
+    "category": "civic",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["climate-policy", "democracy", "civic-action"],
+    "question": "What is the most effective democratic mechanism for accelerating national climate change policy?",
+    "options": [
+      "Individual recycling and reduced consumption",
+      "Electing representatives committed to climate legislation and holding them accountable through civic participation",
+      "Filing complaints with environmental agencies after pollution events occur"
+    ],
+    "correct": 1,
+    "explanation": "Research by climate scientists Wynes and Nicholas (2017) found that individual lifestyle changes have far smaller impact than systemic policy change. Democratic participation — voting for climate-committed representatives, civic mobilisation, and policy advocacy — is the highest-leverage mechanism for national-scale climate action.",
+    "relatedModuleId": "m13",
+    "missRate": 58
+  },
+  {
+    "id": "q46",
+    "category": "ai",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["llm", "ai-basics", "machine-learning"],
+    "question": "What does a Large Language Model (LLM) like ChatGPT actually do when it generates a response?",
+    "options": [
+      "It searches the internet in real time and summarises the most accurate current information",
+      "It predicts the most statistically likely next token based on patterns learned from vast training data",
+      "It understands text the same way a human brain comprehends meaning and context"
+    ],
+    "correct": 1,
+    "explanation": "LLMs are statistical pattern-matching systems. They predict the next word/token based on patterns in their training data — they do not 'know' facts, do not search in real time (unless given tools), and do not understand language the way humans do. This explains why they confidently produce false information (hallucinations).",
+    "relatedModuleId": "m14",
+    "missRate": 72
+  },
+  {
+    "id": "q47",
+    "category": "ai",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["deepfakes", "misinformation", "ai-risk"],
+    "question": "Why are AI-generated deepfakes particularly threatening to democracy and public trust?",
+    "options": [
+      "They require expensive hardware, limiting their spread to well-funded actors",
+      "They can fabricate convincing video and audio of real people saying things they never said — undermining the evidentiary value of video and audio",
+      "They primarily affect celebrities but not politicians or public officials"
+    ],
+    "correct": 1,
+    "explanation": "Deepfakes are AI-generated synthetic media that realistically depict real people saying or doing things they never did. They can fabricate political statements, false confessions, or inflammatory content. In 2023, deepfake audio of a US presidential candidate was distributed ahead of a primary. The societal risk is eroding trust in all video/audio evidence.",
+    "relatedModuleId": "m14",
+    "missRate": 63
+  },
+  {
+    "id": "q48",
+    "category": "ai",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["ai-hallucinations", "reliability", "ai-basics"],
+    "question": "An AI 'hallucination' refers to:",
+    "options": [
+      "Visual distortions or glitches in AI-generated imagery",
+      "When an AI model generates confident-sounding but factually incorrect or fabricated information",
+      "A processing error that causes the AI to repeat outputs"
+    ],
+    "correct": 1,
+    "explanation": "AI hallucinations occur when language models produce fluent, confident text that is factually wrong, misleading, or entirely fabricated. Because LLMs optimise for linguistic plausibility, not truth, they can invent citations, dates, statistics, or events that never existed. Always verify AI outputs against primary sources for anything consequential.",
+    "relatedModuleId": "m14",
+    "missRate": 61
+  },
+  {
+    "id": "q49",
+    "category": "ai",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["facial-recognition", "privacy", "surveillance"],
+    "question": "Which AI application raises the most significant privacy concerns at a societal scale?",
+    "options": [
+      "Autocomplete and spell-check in word processors",
+      "Mass facial recognition — identifying individuals from public surveillance footage without consent or judicial oversight",
+      "Music recommendation algorithms that profile listener preferences"
+    ],
+    "correct": 1,
+    "explanation": "Mass facial recognition enables persistent, retroactive surveillance of entire populations — tracking individuals' movements, associations, and activities without their knowledge or consent. Unlike targeted surveillance, it creates comprehensive profiles of innocent citizens. Multiple democracies have banned its public deployment; others are expanding it. It is the most contested AI application in rights law.",
+    "relatedModuleId": "m14",
+    "missRate": 68
+  },
+  {
+    "id": "q50",
+    "category": "strategy",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["chess", "pieces", "rules"],
+    "question": "In chess, which piece is restricted to moving only diagonally — across any number of squares — and never changes the colour of square it occupies?",
+    "options": [
+      "Rook",
+      "Bishop",
+      "Knight"
+    ],
+    "correct": 1,
+    "explanation": "The bishop moves diagonally any number of squares and is permanently bound to one colour — the square it starts on. Each player has two bishops: one on white squares and one on black. A bishop on white squares can never attack a piece on a black square. This creates a strategic constraint unique to the bishop.",
+    "relatedModuleId": "m15",
+    "missRate": 28
+  },
+  {
+    "id": "q51",
+    "category": "strategy",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["chess", "en-passant", "rules"],
+    "question": "What is 'en passant' in chess?",
+    "options": [
+      "The opening agreement between players on a strategic formation",
+      "A special pawn capture where a pawn takes an opponent's pawn that just moved two squares forward, as though it had only moved one — available only on the very next move",
+      "The act of resigning a game by toppling your own king"
+    ],
+    "correct": 1,
+    "explanation": "En passant (French: 'in passing') is chess's most counterintuitive rule. When a pawn advances two squares from its starting position and lands beside an enemy pawn, the enemy pawn may capture it as if it had only moved one square. This capture must be made immediately on the next move or the right is permanently lost. It was introduced to prevent pawns from bypassing capture.",
+    "relatedModuleId": "m15",
+    "missRate": 74
+  },
+  {
+    "id": "q52",
+    "category": "strategy",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["game-theory", "prisoners-dilemma", "decision-making"],
+    "question": "The Prisoner's Dilemma in game theory demonstrates that:",
+    "options": [
+      "Criminals will always confess when interrogated separately — making cooperation impossible",
+      "Rational individual self-interest can produce collectively worse outcomes — illustrating why cooperation is structurally difficult even when mutually beneficial",
+      "Two prisoners can always achieve a better outcome by cooperating to escape"
+    ],
+    "correct": 1,
+    "explanation": "The Prisoner's Dilemma shows that two rational actors, unable to communicate, will both choose self-interest (defection) even though mutual cooperation would benefit both more. This models real-world dynamics: arms races, climate agreements, pricing wars — wherever short-term individual gain outweighs collective benefit. It is the foundational concept of game theory.",
+    "relatedModuleId": "m15",
+    "missRate": 66
+  },
+  {
+    "id": "q53",
+    "category": "strategy",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["chess", "elo-rating", "competitive"],
+    "question": "The Elo rating system, invented for chess, works by:",
+    "options": [
+      "Ranking players based on the elegance and creativity of their opening moves",
+      "Assigning points that are won or lost based on results against opponents of known ratings — so beating a stronger player gains more points than beating a weaker one",
+      "Counting the total number of pieces captured across all games in a season"
+    ],
+    "correct": 1,
+    "explanation": "The Elo system (named after physicist Arpad Elo) calculates expected outcomes based on rating differences, then adjusts ratings after each game. A win against a much higher-rated player yields large gains; beating a lower-rated player yields small gains. It is used in chess, FIFA rankings, tennis, multiplayer video games, and even academic citations.",
+    "relatedModuleId": "m15",
+    "missRate": 52
+  },
+  {
+    "id": "q54",
+    "category": "environment",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["climate-change", "paris-agreement", "global-policy"],
+    "question": "The Paris Agreement (2015) set a global target to limit average temperature rise to:",
+    "options": [
+      "1.5°C to 2°C above pre-industrial levels — with efforts to stay within 1.5°C",
+      "3°C — considered the most economically achievable target",
+      "0.5°C — the scientifically ideal level for protecting all ecosystems"
+    ],
+    "correct": 0,
+    "explanation": "The Paris Agreement, signed by 196 parties, set a target of well below 2°C warming above pre-industrial levels, with best efforts to limit warming to 1.5°C. Current national pledges (NDCs), if fully implemented, put us on track for approximately 2.5–2.8°C. The difference between 1.5°C and 2°C is not small — it means hundreds of millions more people exposed to extreme heat, sea level rise, and food insecurity.",
+    "relatedModuleId": "m4",
+    "missRate": 45
+  },
+  {
+    "id": "q55",
+    "category": "environment",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["climate-change", "tipping-points", "irreversibility"],
+    "question": "A climate 'tipping point' refers to:",
+    "options": [
+      "The moment a country meets its nationally determined carbon reduction contribution",
+      "A critical threshold where a climate subsystem shifts irreversibly to a new state — triggering changes that may persist for centuries regardless of future emissions reductions",
+      "The crossover point when renewable energy becomes cheaper than fossil fuels in a given economy"
+    ],
+    "correct": 1,
+    "explanation": "Climate tipping points — like the collapse of the West Antarctic Ice Sheet, the Greenland Ice Sheet, or Amazon dieback — are thresholds beyond which feedback loops drive continued change independent of human emissions. Some scientists believe we have already crossed several. This irreversibility makes early emissions reductions dramatically more valuable than equivalent reductions made later.",
+    "relatedModuleId": "m4",
+    "missRate": 71
+  },
+
+  {
+    "id": "q56",
+    "category": "environment",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["africa-climate", "emissions", "equity"],
+    "question": "Africa contributes approximately what percentage of global greenhouse gas emissions — yet bears some of the most severe climate impacts?",
+    "options": [
+      "About 25% — proportional to its population share",
+      "Less than 4% — a profound injustice at the heart of global climate negotiations",
+      "About 15% — primarily from deforestation and agriculture"
+    ],
+    "correct": 1,
+    "explanation": "Africa contributes approximately 3–4% of global cumulative greenhouse gas emissions yet is home to 7 of the 10 countries most vulnerable to climate change. This emissions-impact gap is the core climate justice issue: those least responsible are paying the highest price. It is central to debates about climate finance, loss and damage, and the obligations of historical emitters.",
+    "relatedModuleId": "m16",
+    "missRate": 67
+  },
+  {
+    "id": "q57",
+    "category": "environment",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["climate-science", "feedback-loops", "warming"],
+    "question": "The 'permafrost feedback loop' is concerning because:",
+    "options": [
+      "Melting permafrost exposes darker soil that absorbs more solar heat",
+      "Thawing permafrost releases methane and CO₂ stored for thousands of years, accelerating warming independently of human emissions",
+      "Frozen ground prevents trees from growing in the Arctic, reducing the carbon sink"
+    ],
+    "correct": 1,
+    "explanation": "Permafrost — permanently frozen ground in Arctic regions — contains approximately twice the carbon currently in the atmosphere, stored over thousands of years. As warming thaws it, this carbon is released as methane (80× more potent than CO₂ over 20 years) and CO₂, creating a self-reinforcing feedback loop. This is one of the most feared tipping points because once triggered, it cannot be stopped by human action alone.",
+    "relatedModuleId": "m16",
+    "missRate": 79
+  },
+  {
+    "id": "q58",
+    "category": "environment",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["kenya", "renewable-energy", "climate-action"],
+    "question": "Kenya generates approximately what percentage of its electricity from renewable sources?",
+    "options": [
+      "About 40% — comparable to the European Union average",
+      "Approximately 90% — primarily from geothermal and hydropower",
+      "About 60% — with significant solar expansion in recent years"
+    ],
+    "correct": 1,
+    "explanation": "Kenya is a global leader in renewable electricity. Approximately 90% of Kenya's electricity comes from renewable sources — primarily geothermal (from the East African Rift Valley, the world's third-largest geothermal field) and hydropower. This makes Kenya's electricity grid one of the cleanest in the world — a model for energy transition that the rest of Africa is studying.",
+    "relatedModuleId": "m16",
+    "missRate": 72
+  },
+  {
+    "id": "q59",
+    "category": "environment",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["climate-adaptation", "east-africa", "food-security"],
+    "question": "In the context of climate change, what distinguishes 'adaptation' from 'mitigation'?",
+    "options": [
+      "Mitigation is done by governments; adaptation is done by individuals",
+      "Mitigation reduces the causes of climate change (emissions reductions); adaptation adjusts to the impacts already underway — both are now necessary",
+      "Adaptation is a temporary strategy; mitigation is the permanent solution"
+    ],
+    "correct": 1,
+    "explanation": "Mitigation — reducing greenhouse gas emissions — addresses climate change at the source. Adaptation — building seawalls, developing drought-resistant crops, relocating vulnerable communities — adjusts to climate impacts that are now inevitable regardless of emission reductions. Because 1.5°C is already likely locked in, adaptation has become as urgent as mitigation, especially in Africa where communities face drought, flood, and food insecurity now.",
+    "relatedModuleId": "m16",
+    "missRate": 63
+  },
+  {
+    "id": "q60",
+    "category": "environment",
+    "context": "general",
+    "difficulty": "beginner",
+    "tags": ["deforestation", "congo-basin", "carbon-sink"],
+    "question": "The Congo Basin rainforest is critical for global climate because:",
+    "options": [
+      "It produces the majority of the world's pharmaceutical plant compounds",
+      "It is the world's second-largest tropical forest and absorbs billions of tonnes of CO₂ annually — second only to the Amazon as a global carbon sink",
+      "Its rivers provide drinking water for over 1 billion people across Sub-Saharan Africa"
+    ],
+    "correct": 1,
+    "explanation": "The Congo Basin spans 3.3 million km² across six countries — the second-largest tropical forest after the Amazon. It absorbs approximately 1.1 billion tonnes of CO₂ per year, playing an outsized role in global climate regulation. Congo Basin deforestation is accelerating due to agriculture, charcoal production, and conflict — making its protection a global, not just regional, climate priority.",
+    "relatedModuleId": "m16",
+    "missRate": 74
+  },
+  {
+    "id": "q61",
+    "category": "environment",
+    "context": "general",
+    "difficulty": "intermediate",
+    "tags": ["climate-finance", "loss-and-damage", "cop"],
+    "question": "At COP27 (2022), nations agreed to establish a 'Loss and Damage' fund. What does this fund address?",
+    "options": [
+      "Insurance payments to fossil fuel companies transitioning to clean energy",
+      "Financial support for vulnerable nations suffering irreversible climate impacts — floods, droughts, displacement — they did not cause",
+      "Carbon offset market regulation to prevent greenwashing in developing countries"
+    ],
+    "correct": 1,
+    "explanation": "The Loss and Damage fund — a historic breakthrough at COP27 in Sharm el-Sheikh — provides financial compensation to developing nations for climate impacts that are beyond adaptation: permanent land loss from sea level rise, ecosystem destruction, displacement. It directly addresses climate justice — the principle that those who caused the least warming bear the most harm. Funding commitments remain far below what vulnerable nations need.",
+    "relatedModuleId": "m16",
+    "missRate": 81
+  }
+]

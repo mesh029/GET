@@ -1,0 +1,614 @@
+{
+  "microInsights": [
+    {
+      "id": "i1",
+      "category": "cyber",
+      "text": "Reusing passwords across accounts means one breach exposes all of them — use a password manager.",
+      "type": "tip"
+    },
+    {
+      "id": "i2",
+      "category": "law",
+      "text": "Posting someone's photo without consent can create legal exposure, even if you took the photo yourself.",
+      "type": "did-you-know"
+    },
+    {
+      "id": "i3",
+      "category": "environment",
+      "text": "Fast fashion contributes to 20% of global industrial water pollution — the second most polluting industry.",
+      "type": "insight"
+    },
+    {
+      "id": "i4",
+      "category": "cyber",
+      "text": "Public Wi-Fi without a VPN is like shouting your passwords in a coffee shop — anyone on the network can listen.",
+      "type": "tip"
+    },
+    {
+      "id": "i5",
+      "category": "law",
+      "text": "When you click 'I Agree', you enter a legally binding contract — even if you didn't read a word of it.",
+      "type": "did-you-know"
+    },
+    {
+      "id": "i6",
+      "category": "space",
+      "text": "When you look at the night sky, you're looking into the past — the light you see left those stars years ago.",
+      "type": "insight"
+    },
+    {
+      "id": "i7",
+      "category": "life-skills",
+      "text": "6 hours of sleep feels like enough — but research shows it impairs performance as much as being awake for 24 hours.",
+      "type": "insight"
+    },
+    {
+      "id": "i8",
+      "category": "business",
+      "text": "The best time to file a trademark is before you launch publicly — not after a competitor copies your brand.",
+      "type": "tip"
+    },
+    {
+      "id": "i9",
+      "category": "fashion",
+      "text": "Buying one secondhand item instead of new saves an average of 2.5 kg of CO₂ equivalent.",
+      "type": "did-you-know"
+    },
+    {
+      "id": "i10",
+      "category": "cyber",
+      "text": "In healthcare, sharing login credentials with a colleague — even once — violates patient privacy law.",
+      "type": "tip"
+    },
+    {
+      "id": "i11",
+      "category": "law",
+      "text": "Influencers must disclose paid partnerships in every post — '#ad' buried in hashtags doesn't count as disclosure.",
+      "type": "did-you-know"
+    },
+    {
+      "id": "i12",
+      "category": "environment",
+      "text": "Your old smartphone contains gold, silver, and rare earth metals worth recovering — don't throw it in the bin.",
+      "type": "insight"
+    },
+    {
+      "id": "i13",
+      "category": "business",
+      "text": "KES 999 feels much cheaper than KES 1,000 — your brain anchors on the first digit, not the total.",
+      "type": "insight"
+    },
+    {
+      "id": "i14",
+      "category": "space",
+      "text": "Space debris is a growing crisis — there are over 27,000 tracked objects in orbit, and millions of smaller fragments.",
+      "type": "insight"
+    },
+    {
+      "id": "i15",
+      "category": "life-skills",
+      "text": "Automating savings removes willpower from the equation — set it up once and it happens every month.",
+      "type": "tip"
+    },
+    {
+      "id": "i16",
+      "category": "law",
+      "text": "You can request a copy of ALL data a company holds about you — in many countries, they must respond within 30 days.",
+      "type": "did-you-know"
+    },
+    {
+      "id": "i17",
+      "category": "fashion",
+      "text": "Most fashion brand 'eco-friendly' claims are greenwashing — EU regulators are now prosecuting these as consumer fraud.",
+      "type": "insight"
+    },
+    {
+      "id": "i18",
+      "category": "cyber",
+      "text": "A phishing email doesn't need to look suspicious — modern attacks perfectly mimic trusted brands, including fonts and logos.",
+      "type": "tip"
+    },
+    {
+      "id": "i19",
+      "category": "civic",
+      "text": "Kenya's 2027 election cycle has already begun — voter registration, IEBC accountability, and candidate vetting are active civic duties right now.",
+      "type": "insight"
+    },
+    {
+      "id": "i20",
+      "category": "civic",
+      "text": "Democracies with compulsory voting (like Australia) consistently show higher policy responsiveness to average citizens, not just organised interest groups.",
+      "type": "did-you-know"
+    },
+    {
+      "id": "i21",
+      "category": "ai",
+      "text": "AI hallucinations are not bugs — they are features of how language models work. They predict plausible text, not verified truth.",
+      "type": "tip"
+    },
+    {
+      "id": "i22",
+      "category": "ai",
+      "text": "ChatGPT reached 100 million users in 2 months — the fastest product adoption in tech history. The internet took 7 years to reach the same milestone.",
+      "type": "did-you-know"
+    },
+    {
+      "id": "i23",
+      "category": "strategy",
+      "text": "Chess has approximately 10^120 possible game continuations — more than the number of atoms in the observable universe. No computer has fully 'solved' it.",
+      "type": "insight"
+    },
+    {
+      "id": "i24",
+      "category": "environment",
+      "text": "Crossing a climate tipping point doesn't require a dramatic event — it can happen gradually, then suddenly become irreversible without warning.",
+      "type": "insight"
+    },
+    {
+      "id": "i25",
+      "category": "civic",
+      "text": "The phrase 'all politics is local' is attributed to US Speaker Tip O'Neill — meaning national outcomes are built from thousands of small, local civic acts.",
+      "type": "did-you-know"
+    }
+  ],
+  "trendingTopics": [
+    {
+      "id": "t1",
+      "title": "AI Liability & the EU AI Act",
+      "category": "law",
+      "summary": "The EU AI Act came into force in 2024. Companies deploying AI systems in high-risk areas now face strict compliance requirements — and liability for AI-generated harm.",
+      "urgency": "high",
+      "questionId": "q39"
+    },
+    {
+      "id": "t2",
+      "title": "Space Debris & Kessler Syndrome",
+      "category": "space",
+      "summary": "With over 8,000 active satellites and thousands of debris objects in orbit, the risk of cascade collision events is growing. SpaceX, OneWeb, and others are under increasing pressure to deorbit responsibly.",
+      "urgency": "medium",
+      "questionId": "q40"
+    },
+    {
+      "id": "t3",
+      "title": "Greenwashing Crackdowns",
+      "category": "fashion",
+      "summary": "The EU's Green Claims Directive is forcing brands to substantiate every environmental claim. Vague terms like 'eco-friendly' or 'sustainable' without evidence are now legally actionable.",
+      "urgency": "high",
+      "questionId": "q38"
+    },
+    {
+      "id": "t4",
+      "title": "Password Manager Adoption",
+      "category": "cyber",
+      "summary": "Only 30% of users use a password manager despite 80% of breaches involving stolen credentials. Security experts call it the single highest-ROI cyber habit available to individuals.",
+      "urgency": "high",
+      "questionId": "q36"
+    },
+    {
+      "id": "t5",
+      "title": "Influencer Disclosure Enforcement",
+      "category": "law",
+      "summary": "Regulators across the US, UK, and EU are increasing enforcement of influencer disclosure rules. Major creators have faced fines and investigations for inadequate '#ad' labeling.",
+      "urgency": "medium",
+      "questionId": "q14"
+    },
+    {
+      "id": "t6",
+      "title": "Deep Fake & Identity Risk",
+      "category": "cyber",
+      "summary": "AI-generated deepfakes are increasingly used in phishing attacks — voice cloning and video manipulation make traditional verification insufficient. Behavioral biometrics are emerging as a solution.",
+      "urgency": "high",
+      "questionId": "q1"
+    },
+    {
+      "id": "t7",
+      "title": "Kenya 2027: Civic Preparedness",
+      "category": "civic",
+      "summary": "Kenya's next general election is August 2027. Voter registration, IEBC transparency, and informed candidate scrutiny are active civic responsibilities now — not just on election day.",
+      "urgency": "high",
+      "questionId": "q41"
+    },
+    {
+      "id": "t8",
+      "title": "Climate Tipping Points: Where We Are",
+      "category": "environment",
+      "summary": "Scientists now believe several climate tipping points — including West Antarctic ice collapse and Amazon dieback — may already have been crossed. The Paris 1.5°C target is under severe pressure.",
+      "urgency": "high",
+      "questionId": "q55"
+    },
+    {
+      "id": "t9",
+      "title": "AI in 2025: What Changed",
+      "category": "ai",
+      "summary": "Multimodal AI, agent systems, and AI-generated disinformation are reshaping elections, workplaces, and creative industries simultaneously. The regulatory frameworks are 12–18 months behind the technology.",
+      "urgency": "high",
+      "questionId": "q46"
+    },
+    {
+      "id": "t10",
+      "title": "Chess Goes Mainstream",
+      "category": "strategy",
+      "summary": "Chess viewership hit 100M+ monthly on Chess.com post-Queen's Gambit. The game is being used in schools, executive education, and military training as a proven strategic thinking tool.",
+      "urgency": "medium",
+      "questionId": "q50"
+    }
+  ],
+  "periodInsights": [
+    {
+      "id": "p1",
+      "period": "This Week",
+      "headline": "Your Data Rights Are Expanding",
+      "body": "New privacy regulations passed in Brazil, India, and Australia follow the GDPR model. If you use services in these markets, you now have new rights to access, correct, and delete your personal data.",
+      "category": "law",
+      "learnMoreModuleId": "m6"
+    },
+    {
+      "id": "p2",
+      "period": "This Month",
+      "headline": "Space is Getting Crowded",
+      "body": "Over 2,800 new satellites were launched in the last 12 months. Low Earth orbit — the same region used by GPS, weather, and communication satellites — is approaching a density threshold that concerns scientists.",
+      "category": "space",
+      "learnMoreModuleId": "m8"
+    },
+    {
+      "id": "p3",
+      "period": "Trending Now",
+      "headline": "Fashion Brands Under Legal Scrutiny",
+      "body": "Three major fast-fashion brands are facing class action lawsuits over misleading sustainability claims. Courts in France and Germany are setting precedents that 'green' marketing must be measurably substantiated.",
+      "category": "fashion",
+      "learnMoreModuleId": "m9"
+    },
+    {
+      "id": "p4",
+      "period": "Right Now",
+      "headline": "Phishing Attacks Hit Record Highs",
+      "body": "The Anti-Phishing Working Group reports a 40% year-over-year increase in phishing attacks. AI-generated emails now mimic corporate communication styles so accurately that even trained professionals are deceived.",
+      "category": "cyber",
+      "learnMoreModuleId": "m1"
+    },
+    {
+      "id": "p5",
+      "period": "This Week",
+      "headline": "Sleep Science Reshaping Workplaces",
+      "body": "Major corporations including Nike and Ben & Jerry's now offer nap rooms after studies showed adequate sleep increases productivity by 20% and reduces errors by 15% in high-stakes roles.",
+      "category": "life-skills",
+      "learnMoreModuleId": "m11"
+    },
+    {
+      "id": "p6",
+      "period": "This Month",
+      "headline": "The True Cost of Fast Fashion",
+      "body": "A new lifecycle analysis found the average garment is worn just 7–10 times before disposal. The fashion industry now produces twice the clothing it did 20 years ago, with 87% ending up in landfills or incinerators.",
+      "category": "environment",
+      "learnMoreModuleId": "m5"
+    },
+    {
+      "id": "p7",
+      "period": "Right Now",
+      "headline": "Africa Pays the Climate Bill It Didn't Run Up",
+      "body": "Africa contributes 3–4% of global emissions but hosts 7 of the 10 most climate-vulnerable countries. From Horn of Africa drought to Sahel desertification, the continent is experiencing the frontline of a crisis it did not create. The Loss and Damage fund agreed at COP27 represents a first acknowledgment of this injustice.",
+      "category": "environment",
+      "learnMoreModuleId": "m16"
+    },
+    {
+      "id": "p8",
+      "period": "This Week",
+      "headline": "The Tipping Point We Can't Come Back From",
+      "body": "Permafrost in the Arctic stores twice the carbon currently in the atmosphere. As it thaws, it releases methane — a greenhouse gas 80× more potent than CO₂ over 20 years. Scientists now believe parts of this feedback loop are already irreversible. Early, deep emission cuts remain the only lever that matters.",
+      "category": "environment",
+      "learnMoreModuleId": "m16"
+    }
+  ],
+  "countryTrends": [
+    {
+      "id": "ke1",
+      "region": "kenya",
+      "flag": "🇰🇪",
+      "country": "Kenya",
+      "title": "Kenya 2027 General Election",
+      "summary": "Kenya heads to the polls in August 2027. As voter registration opens, understanding the 50%+1 county threshold, the role of the IEBC, and how to spot electoral disinformation is essential civic knowledge for every Kenyan.",
+      "category": "civic",
+      "urgency": "high",
+      "moduleId": "m13",
+      "questionId": "q41",
+      "date": "August 2027",
+      "tag": "Election Watch"
+    },
+    {
+      "id": "ke2",
+      "region": "kenya",
+      "flag": "🇰🇪",
+      "country": "Kenya",
+      "title": "East Africa Climate Stress: 2024–2026",
+      "summary": "Prolonged droughts followed by extreme flooding have displaced over 700,000 people across Kenya, Ethiopia, and Somalia. The link between climate change and instability in the Horn of Africa is no longer theoretical.",
+      "category": "environment",
+      "urgency": "high",
+      "moduleId": "m16",
+      "questionId": "q56",
+      "date": "Ongoing",
+      "tag": "Climate Impact"
+    },
+    {
+      "id": "ke3",
+      "region": "kenya",
+      "flag": "🇰🇪",
+      "country": "Kenya",
+      "title": "Kenya's Data Protection Act: What You Need to Know",
+      "summary": "Kenya's Data Protection Act (2019) grants citizens rights similar to GDPR — including access, correction, and erasure of personal data. Enforcement is increasing, and companies are now being investigated for non-compliance.",
+      "category": "law",
+      "urgency": "medium",
+      "moduleId": "m6",
+      "questionId": "q11",
+      "date": "Active",
+      "tag": "Your Rights"
+    },
+    {
+      "id": "ke4",
+      "region": "kenya",
+      "flag": "🇰🇪",
+      "country": "Kenya",
+      "title": "Gen Z Political Mobilisation in Kenya",
+      "summary": "The 2024 Finance Bill protests — led largely by Gen Z — demonstrated a new model of civic engagement: decentralised, digitally coordinated, and issue-focused rather than party-aligned. A preview of 2027 dynamics.",
+      "category": "civic",
+      "urgency": "medium",
+      "moduleId": "m13",
+      "questionId": "q44",
+      "date": "2024–present",
+      "tag": "Civic Shift"
+    },
+    {
+      "id": "gl1",
+      "region": "global",
+      "flag": "🌍",
+      "country": "Global",
+      "title": "AI Regulation: 2025 Status",
+      "summary": "The EU AI Act is now partially in force. The US Executive Order on AI is being implemented. China has its own algorithmic regulation regime. A fragmented global AI governance landscape is emerging — with serious gaps.",
+      "category": "ai",
+      "urgency": "high",
+      "moduleId": "m14",
+      "questionId": "q49",
+      "date": "2025",
+      "tag": "AI Governance"
+    },
+    {
+      "id": "gl2",
+      "region": "global",
+      "flag": "🌍",
+      "country": "Global",
+      "title": "2024 Was Earth's Hottest Year on Record",
+      "summary": "2024 became the first year to exceed 1.5°C above pre-industrial temperatures — crossing the Paris Agreement's aspirational threshold. Scientists warn this may mark a permanent shift, not a single anomaly.",
+      "category": "environment",
+      "urgency": "high",
+      "moduleId": "m4",
+      "questionId": "q55",
+      "date": "Confirmed 2025",
+      "tag": "Climate Emergency"
+    },
+    {
+      "id": "gl3",
+      "region": "global",
+      "flag": "🌍",
+      "country": "Global",
+      "title": "Democracy Under Pressure: 2025 Index",
+      "summary": "The Economist Intelligence Unit's 2025 Democracy Index shows democratic backsliding in 25 countries. Strengthening civic education and voter participation is now considered a national security issue in multiple democracies.",
+      "category": "civic",
+      "urgency": "high",
+      "moduleId": "m13",
+      "questionId": "q43",
+      "date": "2025",
+      "tag": "Democracy Index"
+    },
+    {
+      "id": "gl4",
+      "region": "global",
+      "flag": "🌍",
+      "country": "Global",
+      "title": "Deepfakes in the 2024 Election Cycle",
+      "summary": "AI-generated audio and video of political candidates were deployed in at least 12 national elections in 2024. Detection tools lag behind generation capabilities. Voter literacy about synthetic media is now an electoral integrity issue.",
+      "category": "ai",
+      "urgency": "high",
+      "moduleId": "m14",
+      "questionId": "q47",
+      "date": "2024–2025",
+      "tag": "Election Integrity"
+    },
+    {
+      "id": "ai1",
+      "region": "ai",
+      "flag": "🤖",
+      "country": "AI World",
+      "title": "The Hallucination Problem Is Not Solved",
+      "summary": "Despite rapid progress, all major LLMs still hallucinate — generating confident, plausible-sounding falsehoods. In medical, legal, and financial applications, this remains a critical unresolved safety challenge.",
+      "category": "ai",
+      "urgency": "high",
+      "moduleId": "m14",
+      "questionId": "q48",
+      "date": "Ongoing",
+      "tag": "AI Safety"
+    },
+    {
+      "id": "ai2",
+      "region": "ai",
+      "flag": "🤖",
+      "country": "AI World",
+      "title": "AI Agents: The Next Frontier",
+      "summary": "AI agents — systems that autonomously take actions (browse, write code, send emails, execute transactions) on behalf of users — are moving from demo to deployment. The safety and accountability frameworks are still being written.",
+      "category": "ai",
+      "urgency": "medium",
+      "moduleId": "m14",
+      "questionId": "q46",
+      "date": "2025",
+      "tag": "Emerging Tech"
+    },
+    {
+      "id": "ai3",
+      "region": "ai",
+      "flag": "🤖",
+      "country": "AI World",
+      "title": "AI in African Education",
+      "summary": "EdTech platforms using AI tutoring are expanding rapidly in Kenya, Nigeria, and Ghana — addressing teacher shortages but raising questions about data privacy, algorithmic bias, and the risk of homogenised curricula.",
+      "category": "ai",
+      "urgency": "medium",
+      "moduleId": "m14",
+      "questionId": "q49",
+      "date": "2024–2025",
+      "tag": "Africa Focus"
+    },
+    {
+      "id": "cl1",
+      "region": "climate",
+      "flag": "🌱",
+      "country": "Climate",
+      "title": "The 1.5°C Threshold Was Crossed in 2024",
+      "summary": "For the first time in recorded history, global average temperature exceeded 1.5°C above pre-industrial levels across a full calendar year. The Paris Agreement's most ambitious target may no longer be achievable.",
+      "category": "environment",
+      "urgency": "high",
+      "moduleId": "m16",
+      "questionId": "q54",
+      "date": "2024 confirmed",
+      "tag": "Climate Science"
+    },
+    {
+      "id": "cl2",
+      "region": "climate",
+      "flag": "🌱",
+      "country": "Climate",
+      "title": "Ocean Warming Accelerates",
+      "summary": "2023 and 2024 saw unprecedented ocean heat records. Warmer oceans bleach coral, intensify storms, and reduce the marine carbon sink that absorbs 25% of human CO₂ emissions — creating a dangerous feedback loop.",
+      "category": "environment",
+      "urgency": "high",
+      "moduleId": "m5",
+      "questionId": "q10",
+      "date": "Ongoing",
+      "tag": "Ocean Crisis"
+    },
+    {
+      "id": "cl3",
+      "region": "climate",
+      "flag": "🌱",
+      "country": "Climate",
+      "title": "Kenya's Renewable Energy Leadership",
+      "summary": "Kenya generates approximately 90% of its electricity from renewable sources — primarily geothermal and hydro. It is a rare global success story in clean energy transition that the rest of Africa is studying.",
+      "category": "environment",
+      "urgency": "medium",
+      "moduleId": "m16",
+      "questionId": "q58",
+      "date": "2025",
+      "tag": "Green Energy"
+    },
+    {
+      "id": "cl4",
+      "region": "climate",
+      "flag": "🌱",
+      "country": "Climate",
+      "title": "The Food-Climate Connection",
+      "summary": "Food systems account for 26% of global greenhouse gas emissions. Diet change — particularly reducing beef — remains the single highest-impact individual action available, yet receives the least public attention relative to transport and energy.",
+      "category": "environment",
+      "urgency": "medium",
+      "moduleId": "m16",
+      "questionId": "q6",
+      "date": "Ongoing",
+      "tag": "Food & Climate"
+    },
+    {
+      "id": "cl5",
+      "region": "climate",
+      "flag": "🌱",
+      "country": "Climate",
+      "title": "Congo Basin: The Forest the World Ignores",
+      "summary": "The Congo Basin absorbs 1.1 billion tonnes of CO₂ per year — the world's second-largest carbon sink. Unlike the Amazon, it gets a fraction of international attention and climate finance despite being equally critical to global stability.",
+      "category": "environment",
+      "urgency": "high",
+      "moduleId": "m16",
+      "questionId": "q60",
+      "date": "Ongoing",
+      "tag": "Carbon Sink"
+    },
+    {
+      "id": "cl6",
+      "region": "climate",
+      "flag": "🌱",
+      "country": "Climate",
+      "title": "Permafrost: The Sleeping Giant",
+      "summary": "Arctic permafrost contains twice the carbon currently in the atmosphere. As warming thaws it, methane is released — accelerating warming further. Scientists say some permafrost thaw is now unstoppable. The feedback has begun.",
+      "category": "environment",
+      "urgency": "high",
+      "moduleId": "m16",
+      "questionId": "q57",
+      "date": "Active research",
+      "tag": "Tipping Point"
+    }
+  ],
+  "categoryMeta": {
+    "cyber": {
+      "label": "Cybersecurity",
+      "icon": "ShieldCheck",
+      "color": "primary",
+      "description": "Protect yourself and others in the digital world",
+      "stat": "43% of cyberattacks target small businesses"
+    },
+    "environment": {
+      "label": "Environment",
+      "icon": "Leaf",
+      "color": "primary",
+      "description": "Understand your impact on the planet",
+      "stat": "The 6th mass extinction is already underway"
+    },
+    "law": {
+      "label": "Law & Rights",
+      "icon": "Scale",
+      "color": "primary",
+      "description": "Know your rights — online and offline",
+      "stat": "82% of people have never read a Terms of Service"
+    },
+    "space": {
+      "label": "Space & Science",
+      "icon": "Telescope",
+      "color": "primary",
+      "description": "Explore the universe and its implications",
+      "stat": "Over 5,500 exoplanets confirmed as of 2024"
+    },
+    "fashion": {
+      "label": "Fashion & Culture",
+      "icon": "Shirt",
+      "color": "primary",
+      "description": "The intersection of style, impact, and law",
+      "stat": "Fashion causes 20% of global water pollution"
+    },
+    "life-skills": {
+      "label": "Life Skills",
+      "icon": "Brain",
+      "color": "primary",
+      "description": "Practical knowledge for modern living",
+      "stat": "Financial literacy reduces poverty risk by 30%"
+    },
+    "business": {
+      "label": "Business",
+      "icon": "Briefcase",
+      "color": "primary",
+      "description": "Think like a builder, operator, and owner",
+      "stat": "90% of startups fail — usually from lack of validated learning"
+    },
+    "civic": {
+      "label": "Civic & Democracy",
+      "icon": "Vote",
+      "color": "primary",
+      "description": "Understand governance, elections, and your power as a citizen",
+      "stat": "Only 54% of eligible global voters participated in the most recent elections"
+    },
+    "ai": {
+      "label": "AI & Future Tech",
+      "icon": "Bot",
+      "color": "primary",
+      "description": "Understand AI systems, risks, and the emerging tech landscape",
+      "stat": "ChatGPT reached 100M users in 2 months — fastest adoption in tech history"
+    },
+    "strategy": {
+      "label": "Chess & Strategy",
+      "icon": "Crown",
+      "color": "primary",
+      "description": "Strategic thinking, game intelligence, and decision-making frameworks",
+      "stat": "Chess has 10^120 possible game sequences — more than atoms in the universe"
+    }
+  }
+}

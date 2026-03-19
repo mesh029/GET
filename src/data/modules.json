@@ -1,0 +1,262 @@
+[
+  {
+    "id": "m1",
+    "category": "cyber",
+    "title": "Phishing & Social Engineering",
+    "description": "Learn how attackers manipulate human behavior to steal credentials, and how to recognize and resist these tactics in everyday digital interactions.",
+    "icon": "ShieldAlert",
+    "questionIds": ["q1", "q4", "q36"],
+    "lessons": [
+      "Phishing emails mimic trusted brands — look for mismatched domains and urgency tactics",
+      "Social engineering exploits trust, not just technology — awareness is your strongest defense",
+      "Multi-factor authentication significantly reduces the risk of credential theft",
+      "Never enter credentials via email links — always navigate directly to official sites",
+      "Password managers generate and store unique passwords — eliminating the biggest vulnerability"
+    ],
+    "tip": "Tip: Reusing passwords across accounts means one breach exposes all of them."
+  },
+  {
+    "id": "m2",
+    "category": "cyber",
+    "title": "Financial Cyber Safety",
+    "description": "Understand the tactics used in banking fraud and digital financial scams, and learn the immediate response actions that minimize damage.",
+    "icon": "CreditCard",
+    "questionIds": ["q2", "q7"],
+    "lessons": [
+      "Unusual transactions should trigger immediate card freeze — not wait-and-see",
+      "Public Wi-Fi without a VPN exposes banking sessions to interception",
+      "Smishing (SMS phishing) is a growing vector — banks never ask for PINs via text",
+      "Use unique passwords for financial accounts and enable transaction alerts",
+      "Bank impersonation calls are common — always hang up and call the official number"
+    ],
+    "tip": "Tip: Turn on instant transaction notifications — you'll know within seconds if something is wrong."
+  },
+  {
+    "id": "m3",
+    "category": "cyber",
+    "title": "Healthcare Data Privacy",
+    "description": "Explore the specific cybersecurity responsibilities in healthcare settings, where data breaches can have life-altering consequences for patients.",
+    "icon": "Hospital",
+    "questionIds": ["q3", "q9"],
+    "lessons": [
+      "HIPAA requires individual accountability — shared credentials are a violation",
+      "Patient data requests require identity verification even when the patient is asking",
+      "Encryption is mandatory for any electronic transmission of health information",
+      "Healthcare workers are the most common vector for data breaches — awareness matters",
+      "Role-based access control means only accessing data relevant to your role"
+    ],
+    "tip": "Tip: In healthcare, the minimum necessary standard applies — only access what you need for the task."
+  },
+  {
+    "id": "m4",
+    "category": "environment",
+    "title": "Climate Impact & Personal Action",
+    "description": "Discover which actions truly move the needle on your personal carbon footprint and understand the science behind climate change and human behavior.",
+    "icon": "Leaf",
+    "questionIds": ["q5", "q6"],
+    "lessons": [
+      "Dietary choices — especially reducing beef — have more climate impact than most consumer habits",
+      "Carbon neutrality means net-zero, not zero emissions — offsets and removal both matter",
+      "Transportation (especially flying) is the second highest personal emissions contributor",
+      "Individual action matters, but systemic change requires collective awareness",
+      "The carbon footprint concept was popularized by oil companies to shift responsibility to consumers"
+    ],
+    "tip": "Did you know? One transatlantic flight emits more CO₂ than months of vegetarian meals."
+  },
+  {
+    "id": "m5",
+    "category": "environment",
+    "title": "Waste, Biodiversity & the Circular Economy",
+    "description": "Learn how waste streams — from e-waste to ocean plastics — are managed and mismanaged, and how biodiversity loss connects to everyday choices.",
+    "icon": "Recycle",
+    "questionIds": ["q8", "q10", "q34"],
+    "lessons": [
+      "E-waste is the fastest-growing waste stream globally, containing toxic heavy metals",
+      "80% of ocean plastic originates from land-based mismanaged waste",
+      "The 6th mass extinction is primarily human-driven, accelerating at 100-1000× natural rates",
+      "The circular economy model — reduce, reuse, recycle — applies to electronics as much as packaging",
+      "Biodiversity loss reduces ecosystem resilience — affecting food security and disease prevention"
+    ],
+    "tip": "Insight: Your old smartphone contains gold, silver, and rare earth metals worth recovering."
+  },
+  {
+    "id": "m6",
+    "category": "law",
+    "title": "Digital Rights & Data Protection",
+    "description": "Understand your legal rights in the digital world — from data privacy and consent to contracts you agree to every day without realizing it.",
+    "icon": "Scale",
+    "questionIds": ["q11", "q15", "q31", "q32", "q39"],
+    "lessons": [
+      "GDPR gives EU citizens 8 core rights including erasure, portability, and access",
+      "Clicking 'I agree' creates a legally binding contract — terms are enforceable",
+      "Background location tracking requires explicit, granular consent under modern privacy law",
+      "AI systems that make harmful decisions create liability for the companies deploying them",
+      "The EU AI Act introduces risk-based regulation of AI — high-risk AI faces strict requirements",
+      "The right to be forgotten allows individuals to request removal of outdated or harmful information"
+    ],
+    "tip": "Did you know? You can request a copy of all data a company holds about you — this is legally enforceable in many countries."
+  },
+  {
+    "id": "m7",
+    "category": "law",
+    "title": "Content, Copyright & Online Conduct",
+    "description": "Navigate the legal landscape of social media, content creation, and online speech — including what you can post, share, and say.",
+    "icon": "FileText",
+    "questionIds": ["q12", "q13", "q14"],
+    "lessons": [
+      "Sharing copyrighted images on business pages constitutes infringement — even without commercial intent",
+      "Defamation includes negligent misrepresentation — you can be liable for false statements you didn't know were false",
+      "FTC and ASA rules require clear disclosure of all paid partnerships on every sponsored post",
+      "Screenshots of private messages shared publicly may violate privacy and copyright law",
+      "User-generated content licenses: when you post on platforms, you often grant them broad usage rights"
+    ],
+    "tip": "Posting someone's photo without consent can create legal exposure — even if you took the photo."
+  },
+  {
+    "id": "m8",
+    "category": "space",
+    "title": "Space, Science & the Universe",
+    "description": "Explore the fundamentals of our universe — from black holes and tidal locking to dark matter and the search for life beyond Earth.",
+    "icon": "Telescope",
+    "questionIds": ["q16", "q17", "q18", "q19", "q33", "q40"],
+    "lessons": [
+      "Tidal locking explains why the Moon always shows the same face to Earth",
+      "Gravitational time dilation means time passes more slowly near massive objects",
+      "The habitable zone is defined by the possibility of liquid water, not just temperature",
+      "Dark matter comprises ~27% of the universe but only interacts gravitationally",
+      "The Kessler Syndrome could make low Earth orbit permanently unusable if left unmanaged",
+      "When we observe distant stars, we're looking backward in time — light takes years to reach us"
+    ],
+    "tip": "Insight: The James Webb Space Telescope can observe galaxies formed just 300 million years after the Big Bang."
+  },
+  {
+    "id": "m9",
+    "category": "fashion",
+    "title": "Fashion, Sustainability & Culture",
+    "description": "Understand the environmental and social impact of fashion, the legal landscape of design, and how to spot greenwashing from genuine sustainability.",
+    "icon": "Shirt",
+    "questionIds": ["q20", "q21", "q22", "q38"],
+    "lessons": [
+      "Fashion accounts for ~20% of global industrial water pollution",
+      "Ultra fast fashion relies on exploitative labor — the Rana Plaza disaster exposed its human cost",
+      "Clothing silhouettes cannot be copyrighted in most jurisdictions — only prints and patterns",
+      "Greenwashing is increasingly prosecuted — EU's Green Claims Directive targets misleading eco-labels",
+      "The secondhand clothing market is growing 3× faster than the broader retail sector",
+      "Microplastics from synthetic fabrics are now detected in human blood and breast milk"
+    ],
+    "tip": "Did you know? Buying one secondhand item instead of new saves an average of 2.5 kg of CO₂."
+  },
+  {
+    "id": "m10",
+    "category": "life-skills",
+    "title": "Personal Finance Fundamentals",
+    "description": "Build a practical understanding of money management — budgeting frameworks, compound growth, debt, and the basics of financial independence.",
+    "icon": "PiggyBank",
+    "questionIds": ["q23"],
+    "lessons": [
+      "The 50/30/20 rule gives a practical starting framework for budgeting any income",
+      "Compound interest works for you (investments) and against you (debt) — start early",
+      "Emergency funds (3–6 months of expenses) prevent small crises from becoming financial disasters",
+      "Net worth = assets minus liabilities — track this number, not just income",
+      "Lifestyle inflation silently prevents wealth building — raising savings with every raise is key"
+    ],
+    "tip": "Tip: Automating savings means you never have to rely on willpower to save money."
+  },
+  {
+    "id": "m11",
+    "category": "life-skills",
+    "title": "Mind, Body & Critical Thinking",
+    "description": "Practical knowledge on sleep science, stress physiology, nutrition, and media literacy — the foundational skills for navigating modern life.",
+    "icon": "Brain",
+    "questionIds": ["q24", "q25", "q26", "q35"],
+    "lessons": [
+      "Deep breathing activates the parasympathetic nervous system — physiologically reducing stress",
+      "Viral statistics require primary source verification — social sharing is not evidence of truth",
+      "Sleep consolidates memory, clears neural waste, and regulates hormones — it's non-negotiable",
+      "The glycemic index helps predict energy crashes — low-GI foods provide steadier fuel",
+      "Confirmation bias makes us 3× more likely to believe information that confirms existing views"
+    ],
+    "tip": "Insight: 6 hours of sleep feels like enough but impairs performance as much as 24 hours awake."
+  },
+  {
+    "id": "m12",
+    "category": "business",
+    "title": "Business Thinking & Entrepreneurship",
+    "description": "Core concepts every founder, operator, and professional should know — from MVP philosophy to brand positioning, equity, and consumer psychology.",
+    "icon": "Briefcase",
+    "questionIds": ["q27", "q28", "q29", "q37"],
+    "lessons": [
+      "MVP is about validated learning, not a cheap product — test your riskiest assumptions first",
+      "Left-digit bias (charm pricing) exploits how we read numbers — KES 999 feels much cheaper than KES 1,000",
+      "Equity financing gives investors ownership — unlike debt, there's no repayment schedule",
+      "Brand positioning is a mental battle — the goal is to own a specific space in the customer's mind",
+      "Cybersquatting — registering competitor domain names — is illegal and actionable under UDRP"
+    ],
+    "tip": "Tip: The best time to file a trademark is before you launch publicly — not after someone copies you."
+  },
+  {
+    "id": "m16",
+    "category": "environment",
+    "title": "Climate Crisis: Science, Impact & Africa",
+    "description": "A deep dive into the science of climate change, what tipping points actually mean, how Africa bears disproportionate impact despite minimal emissions, and what the global response looks like.",
+    "icon": "Thermometer",
+    "questionIds": ["q54", "q55", "q56", "q57", "q58", "q59", "q60", "q61"],
+    "lessons": [
+      "2024 was the first year to exceed 1.5°C above pre-industrial levels — the Paris Agreement threshold",
+      "Africa contributes less than 4% of global emissions but faces the most severe climate impacts",
+      "Climate tipping points are self-reinforcing — once crossed, reductions alone cannot reverse them",
+      "Kenya generates ~90% of electricity from renewables — a rare success story on the continent",
+      "The food system accounts for 26% of global emissions — diet change is the highest-impact individual action",
+      "Extreme weather events in East Africa are intensifying — floods, droughts, and food insecurity"
+    ],
+    "tip": "Insight: Kenya generates approximately 90% of its electricity from geothermal and hydro — making it one of the cleanest grids in the world."
+  },
+  {
+    "id": "m13",
+    "category": "civic",
+    "title": "Democracy, Voting & Civic Power",
+    "description": "Understand how democratic systems work, why elections matter, how electoral manipulation happens, and what informed civic participation looks like — from Kenya 2027 to global contexts.",
+    "icon": "Vote",
+    "questionIds": ["q41", "q42", "q43", "q44", "q45"],
+    "lessons": [
+      "Kenya's 2027 general election requires 50%+1 of valid votes plus 25% in at least 24 counties for a presidential win",
+      "Gerrymandering is the manipulation of constituency boundaries to engineer electoral advantage — it undermines fair representation",
+      "Low voter turnout concentrates power in smaller, more organized groups — your vote is a counterweight",
+      "The separation of powers — executive, legislative, judicial — prevents any single branch from monopolising authority",
+      "Civic education builds the awareness base that democracy depends on — informed citizens make better collective decisions"
+    ],
+    "tip": "Insight: Countries with higher civic education levels consistently show stronger institutional accountability and lower corruption."
+  },
+  {
+    "id": "m14",
+    "category": "ai",
+    "title": "AI, Technology & The Future",
+    "description": "Understand how modern AI systems actually work, what makes them powerful and dangerous, and what the emerging regulatory landscape means for users, businesses, and society.",
+    "icon": "Bot",
+    "questionIds": ["q46", "q47", "q48", "q49"],
+    "lessons": [
+      "Large Language Models predict statistically likely text — they don't 'know' things the way humans understand knowledge",
+      "AI hallucinations are confident-sounding false outputs — critical verification is always required",
+      "Deepfakes can fabricate convincing video and audio of real people saying things they never said",
+      "Facial recognition at scale is the most contested AI application — privacy vs. public safety tradeoffs are unresolved",
+      "The EU AI Act (2024) is the world's first comprehensive AI regulation — classifying systems by risk level"
+    ],
+    "tip": "Tip: AI-generated content cannot be verified by looking at it alone — provenance tools and critical reading are essential."
+  },
+  {
+    "id": "m15",
+    "category": "strategy",
+    "title": "Chess, Strategy & Game Intelligence",
+    "description": "From the board to the boardroom — chess principles map directly to decision-making, pattern recognition, and strategic thinking in everyday life. Also the actual rules, traps, and openings.",
+    "icon": "Crown",
+    "questionIds": ["q50", "q51", "q52", "q53"],
+    "lessons": [
+      "Chess is the only ancient game still played at the highest levels unchanged — its complexity is mathematically vast",
+      "En passant is chess's most surprising rule — understanding exceptions deepens strategic thinking",
+      "The Prisoner's Dilemma (game theory) explains why cooperation is hard even when it benefits everyone",
+      "The Elo rating system is a masterpiece of statistical design — it powers matchmaking in chess, FIFA rankings, and multiplayer games",
+      "Chess openings are theory — the first 10-15 moves of top-level games are memorised lines, not improvisation"
+    ],
+    "tip": "Insight: Magnus Carlsen's peak Elo of 2882 is the highest ever recorded — the difference between 2800 and 2882 represents a near-unlosable record against any opponent below."
+  }
+]
