@@ -75,7 +75,7 @@ export default function LearnPage() {
   const publishedCount = Object.keys(articlesData).length;
 
   return (
-    <main className="mx-auto max-w-6xl px-6 py-12">
+    <main className="mx-auto max-w-6xl px-4 sm:px-6 py-8 sm:py-12">
       {/* Header */}
       <div className="mb-8">
         <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/8 px-4 py-1.5 mb-4">
@@ -93,7 +93,7 @@ export default function LearnPage() {
               {totalModules} modules · 7 domains · every lesson tied to a real GET Challenge question.
             </p>
           </div>
-          <div className="rounded-xl border border-border bg-card px-5 py-3 shrink-0 text-center">
+          <div className="rounded-xl border border-border bg-card px-4 sm:px-5 py-3 shrink-0 text-center">
             <div className="text-2xl font-bold text-primary">{publishedCount}<span className="text-sm font-normal text-muted-foreground">/{totalModules}</span></div>
             <div className="text-xs text-muted-foreground">articles published</div>
           </div>
@@ -113,7 +113,8 @@ export default function LearnPage() {
 
       {/* Tabs */}
       <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-8">
-        <TabsList className="flex flex-wrap h-auto gap-1 bg-muted/50 p-1">
+        <div className="overflow-x-auto -mx-1 px-1 pb-1">
+        <TabsList className="flex flex-nowrap sm:flex-wrap h-auto gap-1 bg-muted/50 p-1 w-max sm:w-full">
           {categories.map(({ key, label, icon: Icon }) => (
             <TabsTrigger
               key={key}
@@ -129,7 +130,8 @@ export default function LearnPage() {
               )}
             </TabsTrigger>
           ))}
-        </TabsList>
+          </TabsList>
+        </div>
 
         {/* Trending questions */}
         <div>
@@ -140,7 +142,7 @@ export default function LearnPage() {
             </span>
             <Badge variant="secondary" className="text-xs">Users struggle here</Badge>
           </div>
-          <div className="grid gap-3 md:grid-cols-3">
+          <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
             {trendingQuestions.map((q) => {
               const mod = modulesData.find((m) => m.id === q.relatedModuleId);
               return (

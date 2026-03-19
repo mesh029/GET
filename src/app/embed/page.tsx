@@ -189,7 +189,7 @@ export default function EmbedPage() {
       </div>
 
       {/* Stats strip */}
-      <div className="grid grid-cols-2 gap-4 md:grid-cols-4 mb-14">
+      <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-4 mb-10 sm:mb-14">
         {[
           { value: "3 lines", label: "to integrate" },
           { value: "< 200ms", label: "avg challenge load" },
@@ -206,7 +206,7 @@ export default function EmbedPage() {
         ))}
       </div>
 
-      <div className="grid gap-8 lg:grid-cols-2 mb-14">
+      <div className="grid gap-6 sm:gap-8 grid-cols-1 lg:grid-cols-2 mb-10 sm:mb-14">
         {/* Code snippets */}
         <div>
           <h2 className="text-xl font-bold mb-1">Drop-in integration</h2>

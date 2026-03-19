@@ -156,7 +156,7 @@ export default function HomePage() {
         <div className="pointer-events-none absolute top-0 left-1/4 h-96 w-96 rounded-full bg-primary/5 blur-3xl" />
         <div className="pointer-events-none absolute bottom-0 right-1/4 h-64 w-64 rounded-full bg-emerald-400/5 blur-3xl" />
 
-        <div className="relative mx-auto max-w-6xl px-6 py-24 md:py-36">
+        <div className="relative mx-auto max-w-6xl px-4 sm:px-6 py-16 sm:py-24 md:py-32">
           <div className="max-w-3xl">
             {/* Climate urgency pill */}
             <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-destructive/20 bg-destructive/5 px-4 py-1.5">
@@ -174,19 +174,19 @@ export default function HomePage() {
               </span>
             </div>
 
-            <h1 className="mb-6 text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl leading-tight">
+            <h1 className="mb-6 text-3xl font-bold tracking-tight text-foreground sm:text-4xl md:text-5xl lg:text-6xl leading-tight">
               Every site checks you&apos;re
               <br />
               <span className="text-muted-foreground line-through decoration-destructive/60">not a robot.</span>
               <br />
               <span className="text-primary">Nobody checks if you&apos;re informed.</span>
               <br />
-              <span className="text-2xl md:text-3xl font-semibold text-foreground/70">
+              <span className="text-xl sm:text-2xl md:text-3xl font-semibold text-foreground/70">
                 GET does.
               </span>
             </h1>
 
-            <p className="mb-4 max-w-2xl text-lg text-muted-foreground leading-relaxed">
+            <p className="mb-4 max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
               <strong className="text-foreground">2.8 billion times today</strong>, the internet will verify
               that you&apos;re human — then immediately forget you are. It will
               teach exactly <strong className="text-foreground">zero</strong> of those people anything
@@ -203,21 +203,21 @@ export default function HomePage() {
               Starting with the planet&apos;s most urgent problem.
             </p>
 
-            <div className="flex flex-wrap items-center gap-3">
-              <Button size="lg" onClick={startTour} className="gap-2 font-semibold">
+            <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-3">
+              <Button size="lg" onClick={startTour} className="gap-2 font-semibold justify-center">
                 <Play className="h-4 w-4" />
                 Start Experience
               </Button>
               <Link
                 href="/learn"
-                className={buttonVariants({ size: "lg", variant: "outline" }) + " gap-2"}
+                className={buttonVariants({ size: "lg", variant: "outline" }) + " gap-2 justify-center"}
               >
                 <BookOpen className="h-4 w-4" />
                 Knowledge Hub
               </Link>
               <Link
                 href="/learn/m16"
-                className={buttonVariants({ size: "lg", variant: "ghost" }) + " gap-2"}
+                className={buttonVariants({ size: "lg", variant: "ghost" }) + " gap-2 justify-center"}
               >
                 <Leaf className="h-4 w-4 text-primary" />
                 Climate Deep Dive
@@ -301,7 +301,7 @@ export default function HomePage() {
             {/* Connector line */}
             <div className="absolute top-8 left-8 right-8 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent hidden lg:block" />
 
-            <div className="grid gap-6 md:grid-cols-3 lg:grid-cols-5">
+            <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
               {[
                 {
                   step: "01",
@@ -438,7 +438,7 @@ export default function HomePage() {
       {/* ── CLIMATE IMPACT CALCULATOR ────────────────────────────────────── */}
       <section className="border-b border-border bg-background">
         <div className="mx-auto max-w-6xl px-6 py-20">
-          <div className="grid gap-12 lg:grid-cols-2 items-center">
+          <div className="grid gap-10 grid-cols-1 lg:grid-cols-2 items-center">
             {/* Left: Calculator */}
             <div>
               <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/8 px-4 py-1.5 mb-6">
@@ -589,7 +589,7 @@ export default function HomePage() {
       {/* ── CLIMATE CHALLENGE SPOTLIGHT ──────────────────────────────────── */}
       <section className="border-b border-border bg-gradient-to-br from-emerald-950/5 via-background to-green-900/5">
         <div className="mx-auto max-w-6xl px-6 py-16">
-          <div className="flex flex-col md:flex-row gap-10 items-center">
+          <div className="flex flex-col lg:flex-row gap-10 items-start lg:items-center">
             {/* Left */}
             <div className="flex-1 max-w-lg">
               <div className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/8 px-4 py-1.5 mb-5">
@@ -962,7 +962,7 @@ export default function HomePage() {
         className="border-y border-border bg-gradient-to-br from-secondary/20 to-accent/10"
       >
         <div className="mx-auto max-w-6xl px-6 py-20">
-          <div className="grid gap-12 md:grid-cols-2 items-center">
+          <div className="grid gap-10 grid-cols-1 md:grid-cols-2 items-center">
             <div>
               <Badge variant="secondary" className="mb-4">
                 The Opportunity
@@ -1048,7 +1048,7 @@ export default function HomePage() {
       {/* ── FOR SCHOOLS & INSTITUTIONS ───────────────────────────────────── */}
       <section className="border-y border-border bg-gradient-to-br from-amber-50/60 via-background to-secondary/20">
         <div className="mx-auto max-w-6xl px-6 py-20">
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
+          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
             <div>
               <div className="inline-flex items-center gap-2 rounded-full border border-amber-300/60 bg-amber-50 px-4 py-1.5 mb-4">
                 <GraduationCap className="h-3.5 w-3.5 text-amber-700" />
@@ -1219,21 +1219,21 @@ export default function HomePage() {
           <p className="text-xs text-muted-foreground mb-8 max-w-sm mx-auto">
             Starting with the most urgent problem: the planet.
           </p>
-          <div className="flex flex-wrap justify-center gap-3">
-            <Button size="lg" onClick={startTour} className="gap-2">
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 w-full max-w-md mx-auto sm:max-w-none">
+            <Button size="lg" onClick={startTour} className="gap-2 justify-center">
               <Play className="h-4 w-4" />
               Start Experience
             </Button>
             <Link
               href="/learn"
-              className={buttonVariants({ size: "lg", variant: "outline" }) + " gap-2"}
+              className={buttonVariants({ size: "lg", variant: "outline" }) + " gap-2 justify-center"}
             >
               <BookOpen className="h-4 w-4" />
               Knowledge Hub
             </Link>
             <Link
               href="/embed"
-              className={buttonVariants({ size: "lg", variant: "outline" }) + " gap-2"}
+              className={buttonVariants({ size: "lg", variant: "outline" }) + " gap-2 justify-center"}
             >
               Embed GET <ArrowUpRight className="h-4 w-4" />
             </Link>
@@ -1284,7 +1284,7 @@ function TrendingFeed() {
 
   return (
     <section className="border-b border-border bg-background">
-      <div className="mx-auto max-w-6xl px-6 py-16">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 py-10 sm:py-14 md:py-16">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-6">
           <div>
             <div className="flex items-center gap-2 mb-1">

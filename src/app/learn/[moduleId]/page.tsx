@@ -116,7 +116,7 @@ export default function ArticlePage({
     <main className="min-h-screen bg-background">
       {/* ── Breadcrumb nav ─────────────────────────────── */}
       <div className="border-b border-border bg-muted/30">
-        <div className="mx-auto max-w-4xl px-6 py-3 flex items-center gap-2 text-sm text-muted-foreground">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 py-3 flex items-center gap-2 text-sm text-muted-foreground overflow-x-auto">
           <Link href="/learn" className="hover:text-foreground transition-colors flex items-center gap-1">
             <ArrowLeft className="h-3.5 w-3.5" />
             Knowledge Hub
@@ -128,10 +128,10 @@ export default function ArticlePage({
         </div>
       </div>
 
-      <div className="mx-auto max-w-4xl px-6 py-10">
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 py-8 sm:py-10">
         {/* ── Hero image ────────────────────────────────── */}
         {hasArticle && (
-          <div className="relative mb-8 overflow-hidden rounded-2xl aspect-[21/9] bg-muted">
+          <div className="relative mb-8 overflow-hidden rounded-xl sm:rounded-2xl aspect-[16/9] sm:aspect-[21/9] bg-muted">
             <Image
               src={article.heroImage}
               alt={article.heroAlt}
@@ -157,7 +157,7 @@ export default function ArticlePage({
 
         {/* ── Title + meta ──────────────────────────────── */}
         <div className="mb-8">
-          <h1 className="text-3xl font-bold tracking-tight text-foreground mb-3 leading-tight">
+          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-foreground mb-3 leading-tight">
             {module.title}
           </h1>
           <div className="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">

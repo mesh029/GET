@@ -187,9 +187,9 @@ export function GetChallenge({
   if (showCert) {
     return (
       <Dialog open={open} onOpenChange={handleClose}>
-        <DialogContent className="max-w-md gap-0 p-0 overflow-hidden">
+        <DialogContent className="max-w-md w-[calc(100vw-2rem)] gap-0 p-0 overflow-hidden">
           {/* Cert header */}
-          <div className="bg-gradient-to-br from-primary/10 via-primary/5 to-accent/10 border-b border-primary/20 px-6 py-5">
+          <div className="bg-gradient-to-br from-primary/10 via-primary/5 to-accent/10 border-b border-primary/20 px-4 sm:px-6 py-4 sm:py-5">
             <button
               onClick={() => setShowCert(false)}
               className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground mb-4 transition-colors"
@@ -215,7 +215,7 @@ export function GetChallenge({
           </div>
 
           {/* Cert body */}
-          <div className="px-6 py-5 space-y-4">
+          <div className="px-4 sm:px-6 py-4 sm:py-5 space-y-4">
             <div className="text-center py-2">
               <div className="inline-flex items-center justify-center h-12 w-12 rounded-full bg-primary/10 mb-3">
                 <CheckCircle2 className="h-6 w-6 text-primary" />
@@ -265,7 +265,7 @@ export function GetChallenge({
           </div>
 
           {/* Cert footer */}
-          <div className="border-t border-border px-6 py-3 flex items-center justify-between bg-muted/20">
+          <div className="border-t border-border px-4 sm:px-6 py-3 flex items-center justify-between bg-muted/20 flex-wrap gap-2">
             <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
               <Leaf className="h-3 w-3 text-primary" />
               <span>Powered by GET</span>
@@ -288,7 +288,7 @@ export function GetChallenge({
   // ── Challenge View ─────────────────────────────────────────────────────────
   return (
     <Dialog open={open} onOpenChange={handleClose}>
-      <DialogContent className="max-w-lg gap-0 p-0 overflow-hidden">
+      <DialogContent className="max-w-lg w-[calc(100vw-2rem)] gap-0 p-0 overflow-hidden">
         {/* Header */}
         <div className="bg-primary/5 border-b border-border px-6 py-4">
           <div className="flex items-center justify-between mb-2">
@@ -463,7 +463,7 @@ export function GetChallenge({
         )}
 
         {/* Footer */}
-        <div className="border-t border-border px-6 py-3 flex items-center justify-between bg-muted/20">
+        <div className="border-t border-border px-4 sm:px-6 py-3 flex items-center justify-between bg-muted/20 flex-wrap gap-2">
           <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
             <Leaf className="h-3 w-3 text-primary" />
             <span>Powered by GET</span>

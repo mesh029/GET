@@ -243,7 +243,7 @@ export default function DashboardPage() {
       </div>
 
       {/* ── Period Insight Banner ──────────────────────────────── */}
-      <div className="mb-8 rounded-xl border border-primary/20 bg-primary/5 px-6 py-4 flex items-start gap-4">
+      <div className="mb-8 rounded-xl border border-primary/20 bg-primary/5 px-4 sm:px-6 py-4 flex items-start gap-3 sm:gap-4">
         <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-primary/15">
           <Lightbulb className="h-4 w-4 text-primary" />
         </div>
@@ -274,7 +274,7 @@ export default function DashboardPage() {
         </Link>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {/* ── Top Learning Areas ──────────────────────────────── */}
         <Card className="border-border lg:col-span-2">
           <CardHeader className="pb-2">
@@ -502,13 +502,15 @@ export default function DashboardPage() {
                 value={selectedRegion}
                 onValueChange={setSelectedRegion}
               >
-                <TabsList className="h-7">
-                  {Object.entries(regionalData).map(([key, r]) => (
-                    <TabsTrigger key={key} value={key} className="text-[11px] px-2.5 h-6">
-                      {r.flag} {r.label}
-                    </TabsTrigger>
-                  ))}
-                </TabsList>
+                <div className="overflow-x-auto -mx-1 px-1">
+                  <TabsList className="h-7 w-max">
+                    {Object.entries(regionalData).map(([key, r]) => (
+                      <TabsTrigger key={key} value={key} className="text-[11px] px-2.5 h-6 whitespace-nowrap">
+                        {r.flag} {r.label}
+                      </TabsTrigger>
+                    ))}
+                  </TabsList>
+                </div>
               </Tabs>
             </div>
           </CardHeader>
