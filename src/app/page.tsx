@@ -46,6 +46,7 @@ import {
   Cpu,
   Network,
   Award,
+  BookOpen,
 } from "lucide-react";
 import Link from "next/link";
 import insightsData from "@/data/insights.json";
@@ -174,27 +175,26 @@ export default function HomePage() {
             </div>
 
             <h1 className="mb-6 text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl leading-tight">
-              The internet has a
+              Every verification.
               <br />
-              <span className="text-primary">climate problem.</span>
-              <br />
-              <span className="text-3xl md:text-4xl lg:text-5xl text-muted-foreground font-medium">
-                We&apos;re fixing it.
-              </span>
+              <span className="text-primary">A missed lesson.</span>
             </h1>
 
             <p className="mb-4 max-w-2xl text-lg text-muted-foreground leading-relaxed">
               <strong className="text-foreground">2.8 billion times today</strong>, the internet will verify
-              that you&apos;re human. It will teach exactly{" "}
-              <strong className="text-foreground">zero of them</strong> anything about the climate crisis,
-              biodiversity loss, or the systems destroying the planet they
-              depend on.
+              that you&apos;re human — then immediately forget you are. It will
+              teach exactly <strong className="text-foreground">zero</strong> of those people anything
+              about climate change, their civic rights, the cybersecurity risks
+              they face, or the laws that protect them.
             </p>
             <p className="mb-8 max-w-2xl text-base text-muted-foreground leading-relaxed border-l-2 border-primary/40 pl-4">
-              GET is green technology — not because it runs on solar, but because
-              it converts the internet&apos;s most wasted resource — idle human
-              attention at verification moments — into climate awareness at
-              planetary scale.
+              GET converts the internet&apos;s most wasted resource — idle human
+              attention at verification moments — into verified knowledge across
+              every domain that shapes modern life.{" "}
+              <span className="text-foreground font-medium">
+                Climate. Civic rights. Cybersecurity. Law. Space. Business.
+              </span>{" "}
+              Starting with the planet&apos;s most urgent problem.
             </p>
 
             <div className="flex flex-wrap items-center gap-3">
@@ -203,17 +203,18 @@ export default function HomePage() {
                 Start Experience
               </Button>
               <Link
-                href="/learn/m16"
+                href="/learn"
                 className={buttonVariants({ size: "lg", variant: "outline" }) + " gap-2"}
               >
-                <Leaf className="h-4 w-4 text-primary" />
-                Climate Article
+                <BookOpen className="h-4 w-4" />
+                Knowledge Hub
               </Link>
               <Link
-                href="/embed"
+                href="/learn/m16"
                 className={buttonVariants({ size: "lg", variant: "ghost" }) + " gap-2"}
               >
-                Embed GET <ArrowRight className="h-4 w-4" />
+                <Leaf className="h-4 w-4 text-primary" />
+                Climate Deep Dive
               </Link>
             </div>
           </div>
@@ -236,12 +237,12 @@ export default function HomePage() {
                 color: "text-destructive",
               },
               {
-                value: "4%",
-                label: "Africa's emissions share",
-                sub: "Bears the greatest impact",
-                icon: Globe,
-                color: "text-primary",
-              },
+                  value: "10",
+                  label: "Knowledge domains",
+                  sub: "Climate · Cyber · Law · Civic + more",
+                  icon: Globe,
+                  color: "text-primary",
+                },
               {
                 value: "10B+",
                 label: "Annual climate lessons",
@@ -278,13 +279,14 @@ export default function HomePage() {
             </div>
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
               How GET becomes
-              <span className="text-primary"> climate infrastructure</span>
+              <span className="text-primary"> knowledge infrastructure</span>
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Climate change is an awareness problem as much as a technology
-              problem. People cannot act on what they do not understand. GET
-              embeds climate education into the fabric of the internet itself —
-              at the exact moments humans are already paying attention.
+              Every crisis — climate, civic, cybersecurity, legal — is an
+              awareness problem before it is anything else. People cannot act on
+              what they do not understand. GET embeds verified knowledge into the
+              fabric of the internet itself, at the exact moments humans are
+              already paying attention.
             </p>
           </div>
 
@@ -306,7 +308,7 @@ export default function HomePage() {
                   step: "02",
                   icon: Leaf,
                   title: "Challenge",
-                  desc: "A real climate awareness question is served — from permafrost feedback loops to Kenya's renewable grid.",
+                  desc: "A real awareness question is served — climate tipping points, electoral rights, data privacy laws, or cyber threats. Context-matched.",
                   color: "bg-emerald-100/60 text-emerald-700 border-emerald-200",
                 },
                 {
@@ -320,14 +322,14 @@ export default function HomePage() {
                   step: "04",
                   icon: BarChart3,
                   title: "Map Gaps",
-                  desc: "Anonymous signals aggregate into a real-time climate knowledge gap index by region, domain, and demographics.",
+                  desc: "Anonymous signals aggregate into a real-time knowledge gap index — by region, domain, and demographics — across all 10 categories.",
                   color: "bg-emerald-100/60 text-emerald-700 border-emerald-200",
                 },
                 {
                   step: "05",
                   icon: Wind,
                   title: "Inform Change",
-                  desc: "The data flows to governments, NGOs, and educators — targeting climate campaigns exactly where awareness is lowest.",
+                  desc: "The data flows to governments, NGOs, educators, and compliance teams — targeting awareness gaps exactly where they are most critical.",
                   color: "bg-primary/10 text-primary border-primary/20",
                 },
               ].map(({ step, icon: Icon, title, desc, color }) => (
@@ -349,8 +351,33 @@ export default function HomePage() {
             </div>
           </div>
 
+          {/* Domain pills */}
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-2">
+            <span className="text-xs text-muted-foreground mr-2 font-medium">Works across:</span>
+            {[
+              { label: "🌱 Climate", href: "/learn/m16" },
+              { label: "🔐 Cybersecurity", href: "/learn/m1" },
+              { label: "⚖️ Law & Rights", href: "/learn/m3" },
+              { label: "🗳️ Civic & Democracy", href: "/learn/m13" },
+              { label: "🌌 Space & Science", href: "/learn/m8" },
+              { label: "💼 Business", href: "/learn/m6" },
+              { label: "🤖 AI & Tech", href: "/learn/m14" },
+              { label: "♟️ Chess & Strategy", href: "/learn/m15" },
+              { label: "👗 Fashion & Culture", href: "/learn/m9" },
+              { label: "🧠 Life Skills", href: "/learn/m11" },
+            ].map(({ label, href }) => (
+              <Link
+                key={label}
+                href={href}
+                className="rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground hover:border-primary/40 hover:text-primary transition-all"
+              >
+                {label}
+              </Link>
+            ))}
+          </div>
+
           {/* Before / After */}
-          <div className="mt-14 grid gap-4 md:grid-cols-2">
+          <div className="mt-10 grid gap-4 md:grid-cols-2">
             <div className="rounded-2xl border border-destructive/20 bg-destructive/5 px-6 py-5">
               <div className="flex items-center gap-2 mb-4">
                 <AlertTriangle className="h-4 w-4 text-destructive" />
@@ -384,11 +411,12 @@ export default function HomePage() {
               </div>
               <ul className="space-y-2.5">
                 {[
-                  "Every verification = a verified climate awareness moment",
-                  "Users learn real facts — tipping points, Congo Basin, 1.5°C",
+                  "Every verification = a verified awareness moment across all 10 domains",
+                  "Climate: tipping points, Congo Basin, 1.5°C — explained and remembered",
+                  "Civic: electoral rights, democracy, Kenya 2027 — understood before the ballot",
+                  "Cyber: data privacy, phishing, breach risks — verified before login",
                   "Compliance certificates satisfy regulatory awareness requirements",
-                  "Knowledge gap maps guide NGO and government climate campaigns",
-                  "Collective awareness grows at internet scale — daily",
+                  "Knowledge gap maps guide campaigns exactly where awareness is lowest",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2.5 text-xs text-muted-foreground">
                     <CheckCircle2 className="h-3.5 w-3.5 shrink-0 text-primary mt-0.5" />
@@ -565,22 +593,23 @@ export default function HomePage() {
                 </span>
               </div>
               <h2 className="text-3xl font-bold tracking-tight mb-4">
-                Test your climate
-                <span className="text-primary"> awareness</span>
+                Knowledge that actually
+                <span className="text-primary"> changes things</span>
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Our climate content is the most detailed on the platform.
-                Built from IPCC reports, WMO data, and field research — verified
-                by scientists, translated for everyday action. Every question
-                has an explanation that changes how you see the world.
+                Each GET challenge is backed by a full article — sourced from
+                IPCC reports, constitutional law, cybersecurity research, and
+                civic records. Not trivia. Verified awareness that shapes how
+                people vote, spend, protect themselves, and act. Three domains,
+                one platform.
               </p>
               <div className="space-y-3 mb-8">
                 {[
-                  "Why 1.5°C is catastrophically different from 2°C",
-                  "How Africa bears a crisis it did not cause",
-                  "Why Congo Basin loss is as urgent as Amazon deforestation",
-                  "What the Loss and Damage fund actually means",
-                  "Kenya's extraordinary 90% renewable electricity story",
+                  "🌱 Why 1.5°C is catastrophically different from 2°C",
+                  "⚖️ What the Kenya Data Protection Act actually gives you",
+                  "🗳️ Why Kenya's 2027 election threshold matters to you",
+                  "🔐 How phishing bypasses even security-conscious users",
+                  "🌌 What dark matter actually is — and why it matters",
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-2.5">
                     <CheckCircle2 className="h-4 w-4 text-primary shrink-0 mt-0.5" />
@@ -597,13 +626,13 @@ export default function HomePage() {
                   className="gap-2"
                 >
                   <Play className="h-4 w-4" />
-                  Take Climate Challenge
+                  Take a Challenge
                 </Button>
                 <Link
-                  href="/learn/m16"
+                  href="/learn"
                   className={buttonVariants({ variant: "outline" }) + " gap-2"}
                 >
-                  Read the Article <ArrowRight className="h-4 w-4" />
+                  Browse all topics <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
             </div>
@@ -612,27 +641,30 @@ export default function HomePage() {
             <div className="flex-1 max-w-md space-y-3">
               {[
                 {
-                  q: "2024 was notable in climate history because:",
-                  preview: "For the first time, global temps exceeded 1.5°C above pre-industrial levels across a full year.",
-                  cat: "Climate Science",
-                  miss: 71,
-                },
-                {
-                  q: "Africa's contribution to global greenhouse gas emissions is approximately:",
-                  preview: "A stark injustice — the continent least responsible bears the most severe consequences.",
-                  cat: "Climate Justice",
-                  miss: 67,
-                },
-                {
                   q: "The permafrost feedback loop is dangerous because:",
-                  preview: "Thawing releases methane stored for thousands of years — a self-reinforcing spiral.",
-                  cat: "Tipping Points",
+                  preview: "Thawing releases methane stored for thousands of years — a self-reinforcing climate spiral.",
+                  cat: "🌱 Climate",
                   miss: 79,
+                  href: "/learn/m16",
+                },
+                {
+                  q: "Under Kenya's Data Protection Act, you have the right to:",
+                  preview: "Access, correct, and delete your personal data — rights that apply every time you click 'I Agree'.",
+                  cat: "⚖️ Law & Rights",
+                  miss: 68,
+                  href: "/learn/m3",
+                },
+                {
+                  q: "In Kenya's 2027 election, what threshold must a presidential candidate meet?",
+                  preview: "50%+1 of all valid votes cast — understanding this is the difference between an informed vote and a wasted one.",
+                  cat: "🗳️ Civic",
+                  miss: 74,
+                  href: "/learn/m13",
                 },
               ].map((card, i) => (
                 <div
                   key={i}
-                  className="rounded-xl border border-border bg-card px-5 py-4 cursor-pointer hover:border-primary/40 transition-all"
+                  className="rounded-xl border border-border bg-card px-5 py-4 cursor-pointer hover:border-primary/40 hover:bg-primary/3 transition-all group"
                   onClick={() => {
                     setChallengeContext("social-login");
                     setChallengeOpen(true);
@@ -653,9 +685,18 @@ export default function HomePage() {
                   <p className="text-xs text-muted-foreground line-clamp-2">
                     {card.preview}
                   </p>
-                  <span className="mt-2 flex items-center gap-1 text-xs font-semibold text-primary">
-                    Answer this <ArrowRight className="h-3 w-3" />
-                  </span>
+                  <div className="mt-2 flex items-center justify-between">
+                    <span className="flex items-center gap-1 text-xs font-semibold text-primary">
+                      Answer this <ArrowRight className="h-3 w-3" />
+                    </span>
+                    <Link
+                      href={card.href}
+                      onClick={(e) => e.stopPropagation()}
+                      className="text-[10px] text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      Read article →
+                    </Link>
+                  </div>
                 </div>
               ))}
             </div>
@@ -923,28 +964,29 @@ export default function HomePage() {
               <h2 className="text-3xl font-bold tracking-tight mb-4">
                 Infrastructure for
                 <br />
-                <span className="text-primary">climate behavior change</span>
+                <span className="text-primary">collective knowledge</span>
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Climate change needs behavior change. Behavior change requires
-                awareness. Awareness requires moments of attention. GET is the
-                infrastructure that turns attention — already given, already
-                spent on friction — into climate education at the scale the
-                crisis demands.
+                Every crisis — climate, civic, cyber, legal — is an awareness
+                problem first. GET sits at the exact intersection where attention
+                is already given, and redirects it toward understanding. Not a
+                learning app you have to visit. Infrastructure embedded into
+                every interaction that already happens.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                We don&apos;t ask people to visit a climate website. We bring
-                climate knowledge to where they already are — every login,
-                every payment, every portal access.
+                Climate is our most urgent domain — and our anchor story.
+                But the same mechanism that teaches about tipping points teaches
+                electoral rights, data privacy, and the laws that protect you.
+                One platform. Every gap.
               </p>
               <div className="flex gap-3 flex-wrap">
                 <Link href="/dashboard" className={buttonVariants() + " gap-2"}>
                   View Dashboard
                   <TrendingUp className="h-4 w-4" />
                 </Link>
-                <Link href="/learn/m16" className={buttonVariants({ variant: "outline" }) + " gap-2"}>
-                  <Leaf className="h-4 w-4 text-primary" />
-                  Climate Module
+                <Link href="/learn" className={buttonVariants({ variant: "outline" }) + " gap-2"}>
+                  <BookOpen className="h-4 w-4" />
+                  Knowledge Hub
                 </Link>
               </div>
             </div>
@@ -1159,13 +1201,17 @@ export default function HomePage() {
             <Leaf className="h-8 w-8 text-primary" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-            The climate crisis needs internet-scale awareness.
+            Every verification.
             <br />
-            <span className="text-primary">GET delivers it.</span>
+            <span className="text-primary">A better-informed world.</span>
           </h2>
-          <p className="text-muted-foreground mb-8 max-w-lg mx-auto leading-relaxed">
-            Every login. Every payment. Every portal access. A verified climate
-            awareness moment. A world that knows more, acts more, changes more.
+          <p className="text-muted-foreground mb-2 max-w-lg mx-auto leading-relaxed">
+            Every login. Every payment. Every portal access. A verified awareness
+            moment — climate, civic, legal, or cyber. A world that knows more,
+            acts more, changes more.
+          </p>
+          <p className="text-xs text-muted-foreground mb-8 max-w-sm mx-auto">
+            Starting with the most urgent problem: the planet.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <Button size="lg" onClick={startTour} className="gap-2">
@@ -1173,11 +1219,11 @@ export default function HomePage() {
               Start Experience
             </Button>
             <Link
-              href="/learn/m16"
+              href="/learn"
               className={buttonVariants({ size: "lg", variant: "outline" }) + " gap-2"}
             >
-              <Leaf className="h-4 w-4 text-primary" />
-              Climate Deep Dive
+              <BookOpen className="h-4 w-4" />
+              Knowledge Hub
             </Link>
             <Link
               href="/embed"
