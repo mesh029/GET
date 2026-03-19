@@ -175,9 +175,15 @@ export default function HomePage() {
             </div>
 
             <h1 className="mb-6 text-4xl font-bold tracking-tight text-foreground md:text-5xl lg:text-6xl leading-tight">
-              Every verification.
+              Every site checks you&apos;re
               <br />
-              <span className="text-primary">A missed lesson.</span>
+              <span className="text-muted-foreground line-through decoration-destructive/60">not a robot.</span>
+              <br />
+              <span className="text-primary">Nobody checks if you&apos;re informed.</span>
+              <br />
+              <span className="text-2xl md:text-3xl font-semibold text-foreground/70">
+                GET does.
+              </span>
             </h1>
 
             <p className="mb-4 max-w-2xl text-lg text-muted-foreground leading-relaxed">
@@ -1201,9 +1207,9 @@ export default function HomePage() {
             <Leaf className="h-8 w-8 text-primary" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-            Every verification.
+            Stop filtering robots.
             <br />
-            <span className="text-primary">A better-informed world.</span>
+            <span className="text-primary">Start upgrading humans.</span>
           </h2>
           <p className="text-muted-foreground mb-2 max-w-lg mx-auto leading-relaxed">
             Every login. Every payment. Every portal access. A verified awareness
